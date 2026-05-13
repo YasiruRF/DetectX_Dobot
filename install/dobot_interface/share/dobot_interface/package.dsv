@@ -1,0 +1,11 @@
+source;share/dobot_interface/hook/ld_library_path_lib.ps1
+source;share/dobot_interface/hook/ld_library_path_lib.dsv
+source;share/dobot_interface/hook/ld_library_path_lib.sh
+source;share/dobot_interface/hook/pythonpath.ps1
+source;share/dobot_interface/hook/pythonpath.dsv
+source;share/dobot_interface/hook/pythonpath.sh
+source;share/dobot_interface/local_setup.bash
+source;share/dobot_interface/local_setup.dsv
+source;share/dobot_interface/local_setup.ps1
+source;share/dobot_interface/local_setup.sh
+source;share/dobot_interface/local_setup.zsh

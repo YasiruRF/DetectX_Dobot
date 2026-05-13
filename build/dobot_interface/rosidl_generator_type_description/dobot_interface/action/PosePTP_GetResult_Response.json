@@ -1,0 +1,56 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "dobot_interface/action/PosePTP_GetResult_Response",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "dobot_interface/action/PosePTP_Result"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "dobot_interface/action/PosePTP_Result",
+        "fields": [
+          {
+            "name": "success",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "dobot_interface/action/PosePTP_GetResult_Response",
+      "hash_string": "RIHS01_dc68108a4c9b1b0a2785d780bef2e89fd89cf9a6c49882aa652c39536b290e36"
+    },
+    {
+      "type_name": "dobot_interface/action/PosePTP_Result",
+      "hash_string": "RIHS01_320ae0221763aee563606a4596410dcbe334dfde4089fe3c35838006d659fa4c"
+    }
+  ]
+}

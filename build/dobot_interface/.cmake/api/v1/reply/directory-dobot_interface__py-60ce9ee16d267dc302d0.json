@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "dobot_interface__py",
+		"source" : "/mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/dobot_interface__py"
+	}
+}

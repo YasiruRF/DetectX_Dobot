@@ -1,0 +1,35 @@
+{
+  "package_name": "dobot_interface",
+  "output_dir": "/mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_typesupport_cpp/dobot_interface",
+  "template_dir": "/opt/ros/kilted/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "/mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_adapter/dobot_interface:action/PosePTP.idl"
+  ],
+  "ros_interface_dependencies": [
+    "action_msgs:/opt/ros/kilted/share/action_msgs/msg/GoalInfo.idl",
+    "action_msgs:/opt/ros/kilted/share/action_msgs/msg/GoalStatus.idl",
+    "action_msgs:/opt/ros/kilted/share/action_msgs/msg/GoalStatusArray.idl",
+    "action_msgs:/opt/ros/kilted/share/action_msgs/srv/CancelGoal.idl",
+    "builtin_interfaces:/opt/ros/kilted/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/kilted/share/builtin_interfaces/msg/Time.idl",
+    "unique_identifier_msgs:/opt/ros/kilted/share/unique_identifier_msgs/msg/UUID.idl",
+    "service_msgs:/opt/ros/kilted/share/service_msgs/msg/ServiceEventInfo.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/kilted/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "/opt/ros/kilted/lib/python3.12/site-packages/rosidl_typesupport_cpp/__init__.py",
+    "/opt/ros/kilted/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "/opt/ros/kilted/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/kilted/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/kilted/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_adapter/dobot_interface/action/PosePTP.idl",
+    "/opt/ros/kilted/share/action_msgs/msg/GoalInfo.idl",
+    "/opt/ros/kilted/share/action_msgs/msg/GoalStatus.idl",
+    "/opt/ros/kilted/share/action_msgs/msg/GoalStatusArray.idl",
+    "/opt/ros/kilted/share/action_msgs/srv/CancelGoal.idl",
+    "/opt/ros/kilted/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/kilted/share/builtin_interfaces/msg/Time.idl",
+    "/opt/ros/kilted/share/unique_identifier_msgs/msg/UUID.idl",
+    "/opt/ros/kilted/share/service_msgs/msg/ServiceEventInfo.idl"
+  ]
+}

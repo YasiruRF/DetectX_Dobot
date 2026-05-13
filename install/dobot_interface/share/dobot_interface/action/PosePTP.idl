@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from dobot_interface/action/PosePTP.action
+// generated code does not contain a copyright notice
+
+
+module dobot_interface {
+  module action {
+    typedef float float__4[4];
+    struct PosePTP_Goal {
+      float__4 pose_goal;
+    };
+    struct PosePTP_Result {
+      boolean success;
+    };
+    typedef float float__4[4];
+    struct PosePTP_Feedback {
+      float__4 present_pose;
+    };
+  };
+};
