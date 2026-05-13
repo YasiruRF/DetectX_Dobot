@@ -32,6 +32,7 @@ setup(
             "suction_cup_node = dobot.suction_cup_node:main",
             "jpose_ptp_node = dobot.joint_ptp_node:main",
             "cartesian_ptp_node = dobot.cartesian_ptp_node:main",
+            "vision_node = detect_dobot.vision_node:main",
         ],
     },
 )
