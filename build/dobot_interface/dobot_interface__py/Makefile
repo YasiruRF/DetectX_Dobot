@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/src/dobot_interface
+CMAKE_SOURCE_DIR = /home/dobot/Documents/DetectX/DetectX_Dobot/src/dobot_interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface
+CMAKE_BINARY_DIR = /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/CMakeFiles /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/dobot_interface__py//CMakeFiles/progress.marks
-	cd /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/dobot_interface__py/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/CMakeFiles 0
+	cd /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface && $(CMAKE_COMMAND) -E cmake_progress_start /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/CMakeFiles /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/dobot_interface__py//CMakeFiles/progress.marks
+	cd /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/dobot_interface__py/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/dobot_interface__py/clean
+	cd /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/dobot_interface__py/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,31 +158,31 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/dobot_interface__py/preinstall
+	cd /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/dobot_interface__py/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/dobot_interface__py/preinstall
+	cd /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/dobot_interface__py/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-/mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/rule:
-	cd /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/rule
-.PHONY : /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/rule
+/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/rule:
+	cd /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/rule
+.PHONY : /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/rule
 
 # Convenience name for target.
-dobot_interface__py: /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/rule
+dobot_interface__py: /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/rule
 .PHONY : dobot_interface__py
 
 # fast build rule for target.
 dobot_interface__py/fast:
-	cd /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface && $(MAKE) $(MAKESILENT) -f /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/build.make /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/build
+	cd /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface && $(MAKE) $(MAKESILENT) -f /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/build.make /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/build
 .PHONY : dobot_interface__py/fast
 
 # Help Target
@@ -210,6 +210,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

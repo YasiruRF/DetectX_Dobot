@@ -1,0 +1,7 @@
+[console_scripts]
+cartesian_ptp_node = detect_dobot.cartesian_ptp_node:main
+homing_node = detect_dobot.homing_node:main
+pick_and_place_node = detect_dobot.pick_and_place_node:main
+pose_ptp_node = detect_dobot.pose_ptp_node:main
+suction_cup_node = detect_dobot.suction_cup_node:main
+vision_node = detect_dobot.vision_node:main

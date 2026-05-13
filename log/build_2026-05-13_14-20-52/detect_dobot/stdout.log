@@ -1,0 +1,25 @@
+running egg_info
+writing ../../build/detect_dobot/detect_dobot.egg-info/PKG-INFO
+writing dependency_links to ../../build/detect_dobot/detect_dobot.egg-info/dependency_links.txt
+writing entry points to ../../build/detect_dobot/detect_dobot.egg-info/entry_points.txt
+writing requirements to ../../build/detect_dobot/detect_dobot.egg-info/requires.txt
+writing top-level names to ../../build/detect_dobot/detect_dobot.egg-info/top_level.txt
+reading manifest file '../../build/detect_dobot/detect_dobot.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/detect_dobot/detect_dobot.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/detect_dobot/detect_dobot.egg-info to /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot-0.0.0-py3.12.egg-info
+running install_scripts
+Installing cartesian_ptp_node script to /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/detect_dobot
+Installing homing_node script to /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/detect_dobot
+Installing pick_and_place_node script to /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/detect_dobot
+Installing pose_ptp_node script to /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/detect_dobot
+Installing suction_cup_node script to /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/detect_dobot
+Installing vision_node script to /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/detect_dobot
+writing list of installed files to '/home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/install.log'

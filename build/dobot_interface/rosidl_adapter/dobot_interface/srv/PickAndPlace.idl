@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dobot_interface/srv/PickAndPlace.srv
+// generated code does not contain a copyright notice
+
+
+module dobot_interface {
+  module srv {
+    typedef float float__4[4];
+    struct PickAndPlace_Request {
+      float__4 pick_pose;
+
+      float__4 place_pose;
+    };
+    struct PickAndPlace_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DROSIDL_GENERATOR_C_BUILDING_DLL_dobot_interface -DROS_PACKAGE_NAME=\"dobot_interface\"
 
-CXX_INCLUDES = -I/mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_generator_c -isystem /opt/ros/kilted/include/action_msgs -isystem /opt/ros/kilted/include/builtin_interfaces -isystem /opt/ros/kilted/include/rosidl_runtime_c -isystem /opt/ros/kilted/include/rcutils -isystem /opt/ros/kilted/include/rosidl_typesupport_interface -isystem /opt/ros/kilted/include/unique_identifier_msgs -isystem /opt/ros/kilted/include/service_msgs -isystem /opt/ros/kilted/include/rosidl_typesupport_c
+CXX_INCLUDES = -I/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_c -isystem /opt/ros/kilted/include/action_msgs -isystem /opt/ros/kilted/include/builtin_interfaces -isystem /opt/ros/kilted/include/rosidl_runtime_c -isystem /opt/ros/kilted/include/rcutils -isystem /opt/ros/kilted/include/rosidl_typesupport_interface -isystem /opt/ros/kilted/include/unique_identifier_msgs -isystem /opt/ros/kilted/include/service_msgs -isystem /opt/ros/kilted/include/rosidl_typesupport_c
 
 CXX_FLAGS = -std=gnu++17 -fPIC -Wall
 

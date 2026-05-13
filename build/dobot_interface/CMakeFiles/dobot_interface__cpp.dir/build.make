@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/src/dobot_interface
+CMAKE_SOURCE_DIR = /home/dobot/Documents/DetectX/DetectX_Dobot/src/dobot_interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface
+CMAKE_BINARY_DIR = /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface
 
 # Utility rule file for dobot_interface__cpp.
 
@@ -71,6 +71,11 @@ CMakeFiles/dobot_interface__cpp: rosidl_generator_cpp/dobot_interface/action/det
 CMakeFiles/dobot_interface__cpp: rosidl_generator_cpp/dobot_interface/action/detail/pose_ptp__struct.hpp
 CMakeFiles/dobot_interface__cpp: rosidl_generator_cpp/dobot_interface/action/detail/pose_ptp__traits.hpp
 CMakeFiles/dobot_interface__cpp: rosidl_generator_cpp/dobot_interface/action/detail/pose_ptp__type_support.hpp
+CMakeFiles/dobot_interface__cpp: rosidl_generator_cpp/dobot_interface/srv/pick_and_place.hpp
+CMakeFiles/dobot_interface__cpp: rosidl_generator_cpp/dobot_interface/srv/detail/pick_and_place__builder.hpp
+CMakeFiles/dobot_interface__cpp: rosidl_generator_cpp/dobot_interface/srv/detail/pick_and_place__struct.hpp
+CMakeFiles/dobot_interface__cpp: rosidl_generator_cpp/dobot_interface/srv/detail/pick_and_place__traits.hpp
+CMakeFiles/dobot_interface__cpp: rosidl_generator_cpp/dobot_interface/srv/detail/pick_and_place__type_support.hpp
 CMakeFiles/dobot_interface__cpp: rosidl_generator_cpp/dobot_interface/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/dobot_interface/action/pose_ptp.hpp: /opt/ros/kilted/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -93,6 +98,7 @@ rosidl_generator_cpp/dobot_interface/action/pose_ptp.hpp: /opt/ros/kilted/share/
 rosidl_generator_cpp/dobot_interface/action/pose_ptp.hpp: /opt/ros/kilted/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/dobot_interface/action/pose_ptp.hpp: /opt/ros/kilted/share/rosidl_generator_cpp/resource/srv__type_support.hpp.em
 rosidl_generator_cpp/dobot_interface/action/pose_ptp.hpp: rosidl_adapter/dobot_interface/action/PosePTP.idl
+rosidl_generator_cpp/dobot_interface/action/pose_ptp.hpp: rosidl_adapter/dobot_interface/srv/PickAndPlace.idl
 rosidl_generator_cpp/dobot_interface/action/pose_ptp.hpp: /opt/ros/kilted/share/action_msgs/msg/GoalInfo.idl
 rosidl_generator_cpp/dobot_interface/action/pose_ptp.hpp: /opt/ros/kilted/share/action_msgs/msg/GoalStatus.idl
 rosidl_generator_cpp/dobot_interface/action/pose_ptp.hpp: /opt/ros/kilted/share/action_msgs/msg/GoalStatusArray.idl
@@ -101,8 +107,8 @@ rosidl_generator_cpp/dobot_interface/action/pose_ptp.hpp: /opt/ros/kilted/share/
 rosidl_generator_cpp/dobot_interface/action/pose_ptp.hpp: /opt/ros/kilted/share/builtin_interfaces/msg/Time.idl
 rosidl_generator_cpp/dobot_interface/action/pose_ptp.hpp: /opt/ros/kilted/share/unique_identifier_msgs/msg/UUID.idl
 rosidl_generator_cpp/dobot_interface/action/pose_ptp.hpp: /opt/ros/kilted/share/service_msgs/msg/ServiceEventInfo.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/kilted/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/kilted/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/dobot_interface/action/detail/pose_ptp__builder.hpp: rosidl_generator_cpp/dobot_interface/action/pose_ptp.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dobot_interface/action/detail/pose_ptp__builder.hpp
@@ -116,6 +122,21 @@ rosidl_generator_cpp/dobot_interface/action/detail/pose_ptp__traits.hpp: rosidl_
 rosidl_generator_cpp/dobot_interface/action/detail/pose_ptp__type_support.hpp: rosidl_generator_cpp/dobot_interface/action/pose_ptp.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dobot_interface/action/detail/pose_ptp__type_support.hpp
 
+rosidl_generator_cpp/dobot_interface/srv/pick_and_place.hpp: rosidl_generator_cpp/dobot_interface/action/pose_ptp.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dobot_interface/srv/pick_and_place.hpp
+
+rosidl_generator_cpp/dobot_interface/srv/detail/pick_and_place__builder.hpp: rosidl_generator_cpp/dobot_interface/action/pose_ptp.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dobot_interface/srv/detail/pick_and_place__builder.hpp
+
+rosidl_generator_cpp/dobot_interface/srv/detail/pick_and_place__struct.hpp: rosidl_generator_cpp/dobot_interface/action/pose_ptp.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dobot_interface/srv/detail/pick_and_place__struct.hpp
+
+rosidl_generator_cpp/dobot_interface/srv/detail/pick_and_place__traits.hpp: rosidl_generator_cpp/dobot_interface/action/pose_ptp.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dobot_interface/srv/detail/pick_and_place__traits.hpp
+
+rosidl_generator_cpp/dobot_interface/srv/detail/pick_and_place__type_support.hpp: rosidl_generator_cpp/dobot_interface/action/pose_ptp.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dobot_interface/srv/detail/pick_and_place__type_support.hpp
+
 rosidl_generator_cpp/dobot_interface/msg/rosidl_generator_cpp__visibility_control.hpp: rosidl_generator_cpp/dobot_interface/action/pose_ptp.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/dobot_interface/msg/rosidl_generator_cpp__visibility_control.hpp
 
@@ -126,6 +147,11 @@ dobot_interface__cpp: rosidl_generator_cpp/dobot_interface/action/detail/pose_pt
 dobot_interface__cpp: rosidl_generator_cpp/dobot_interface/action/detail/pose_ptp__type_support.hpp
 dobot_interface__cpp: rosidl_generator_cpp/dobot_interface/action/pose_ptp.hpp
 dobot_interface__cpp: rosidl_generator_cpp/dobot_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+dobot_interface__cpp: rosidl_generator_cpp/dobot_interface/srv/detail/pick_and_place__builder.hpp
+dobot_interface__cpp: rosidl_generator_cpp/dobot_interface/srv/detail/pick_and_place__struct.hpp
+dobot_interface__cpp: rosidl_generator_cpp/dobot_interface/srv/detail/pick_and_place__traits.hpp
+dobot_interface__cpp: rosidl_generator_cpp/dobot_interface/srv/detail/pick_and_place__type_support.hpp
+dobot_interface__cpp: rosidl_generator_cpp/dobot_interface/srv/pick_and_place.hpp
 dobot_interface__cpp: CMakeFiles/dobot_interface__cpp.dir/build.make
 .PHONY : dobot_interface__cpp
 
@@ -138,6 +164,6 @@ CMakeFiles/dobot_interface__cpp.dir/clean:
 .PHONY : CMakeFiles/dobot_interface__cpp.dir/clean
 
 CMakeFiles/dobot_interface__cpp.dir/depend:
-	cd /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/src/dobot_interface /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/src/dobot_interface /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/CMakeFiles/dobot_interface__cpp.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dobot/Documents/DetectX/DetectX_Dobot/src/dobot_interface /home/dobot/Documents/DetectX/DetectX_Dobot/src/dobot_interface /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/CMakeFiles/dobot_interface__cpp.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/dobot_interface__cpp.dir/depend
 

@@ -1,3 +1,6 @@
+source;share/dobot_interface/hook/cmake_prefix_path.ps1
+source;share/dobot_interface/hook/cmake_prefix_path.dsv
+source;share/dobot_interface/hook/cmake_prefix_path.sh
 source;share/dobot_interface/hook/ld_library_path_lib.ps1
 source;share/dobot_interface/hook/ld_library_path_lib.dsv
 source;share/dobot_interface/hook/ld_library_path_lib.sh

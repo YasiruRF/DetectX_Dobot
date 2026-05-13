@@ -1,5 +1,5 @@
 CMakeFiles/dobot_interface__rosidl_generator_py.dir/rosidl_generator_py/dobot_interface/action/_pose_ptp_s.c.o: \
- /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_generator_py/dobot_interface/action/_pose_ptp_s.c \
+ /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_py/dobot_interface/action/_pose_ptp_s.c \
  /usr/include/stdc-predef.h /usr/include/python3.12/Python.h \
  /usr/include/python3.12/patchlevel.h /usr/include/python3.12/pyconfig.h \
  /usr/include/x86_64-linux-gnu/python3.12/pyconfig.h \
@@ -210,22 +210,27 @@ CMakeFiles/dobot_interface__rosidl_generator_py.dir/rosidl_generator_py/dobot_in
  /usr/include/python3.12/cpython/pyfpe.h \
  /usr/include/python3.12/tracemalloc.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
- /usr/lib/python3/dist-packages/numpy/core/include/numpy/ndarrayobject.h \
- /usr/lib/python3/dist-packages/numpy/core/include/numpy/ndarraytypes.h \
- /usr/lib/python3/dist-packages/numpy/core/include/numpy/npy_common.h \
- /usr/lib/python3/dist-packages/numpy/core/include/numpy/numpyconfig.h \
- /usr/lib/python3/dist-packages/numpy/core/include/numpy/_numpyconfig.h \
- /usr/lib/python3/dist-packages/numpy/core/include/numpy/npy_endian.h \
- /usr/lib/python3/dist-packages/numpy/core/include/numpy/npy_cpu.h \
- /usr/lib/python3/dist-packages/numpy/core/include/numpy/utils.h \
- /usr/lib/python3/dist-packages/numpy/core/include/numpy/_neighborhood_iterator_imp.h \
- /usr/lib/python3/dist-packages/numpy/core/include/numpy/__multiarray_api.h \
+ /home/dobot/.local/lib/python3.12/site-packages/numpy/_core/include/numpy/ndarrayobject.h \
+ /home/dobot/.local/lib/python3.12/site-packages/numpy/_core/include/numpy/ndarraytypes.h \
+ /home/dobot/.local/lib/python3.12/site-packages/numpy/_core/include/numpy/npy_common.h \
+ /home/dobot/.local/lib/python3.12/site-packages/numpy/_core/include/numpy/numpyconfig.h \
+ /home/dobot/.local/lib/python3.12/site-packages/numpy/_core/include/numpy/_numpyconfig.h \
+ /usr/include/complex.h /usr/include/x86_64-linux-gnu/bits/mathdef.h \
+ /usr/include/x86_64-linux-gnu/bits/cmathcalls.h \
+ /home/dobot/.local/lib/python3.12/site-packages/numpy/_core/include/numpy/npy_endian.h \
+ /home/dobot/.local/lib/python3.12/site-packages/numpy/_core/include/numpy/npy_cpu.h \
+ /home/dobot/.local/lib/python3.12/site-packages/numpy/_core/include/numpy/utils.h \
+ /home/dobot/.local/lib/python3.12/site-packages/numpy/_core/include/numpy/_neighborhood_iterator_imp.h \
+ /home/dobot/.local/lib/python3.12/site-packages/numpy/_core/include/numpy/dtype_api.h \
+ /home/dobot/.local/lib/python3.12/site-packages/numpy/_core/include/numpy/__multiarray_api.h \
+ /home/dobot/.local/lib/python3.12/site-packages/numpy/_core/include/numpy/_public_dtype_api_table.h \
+ /home/dobot/.local/lib/python3.12/site-packages/numpy/_core/include/numpy/npy_2_compat.h \
  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
- /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__struct.h \
+ /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__struct.h \
  /opt/ros/kilted/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
  /opt/ros/kilted/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
  /opt/ros/kilted/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h \
- /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__functions.h \
+ /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__functions.h \
  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h \
@@ -244,5 +249,5 @@ CMakeFiles/dobot_interface__rosidl_generator_py.dir/rosidl_generator_py/dobot_in
  /opt/ros/kilted/include/rcutils/rcutils/sha256.h \
  /opt/ros/kilted/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
- /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_generator_c/dobot_interface/msg/rosidl_generator_c__visibility_control.h \
+ /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_c/dobot_interface/msg/rosidl_generator_c__visibility_control.h \
  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence_functions.h

@@ -1,0 +1,30 @@
+[0.587s] Invoking command in '/home/dobot/Documents/DetectX/DetectX_Dobot/src/detect_dobot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages:/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages:/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/detect_dobot build --build-base /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build install --record /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/install.log --single-version-externally-managed install_data
+[0.783s] running egg_info
+[0.795s] writing ../../build/detect_dobot/detect_dobot.egg-info/PKG-INFO
+[0.795s] writing dependency_links to ../../build/detect_dobot/detect_dobot.egg-info/dependency_links.txt
+[0.796s] writing entry points to ../../build/detect_dobot/detect_dobot.egg-info/entry_points.txt
+[0.796s] writing requirements to ../../build/detect_dobot/detect_dobot.egg-info/requires.txt
+[0.796s] writing top-level names to ../../build/detect_dobot/detect_dobot.egg-info/top_level.txt
+[0.819s] reading manifest file '../../build/detect_dobot/detect_dobot.egg-info/SOURCES.txt'
+[0.820s] adding license file 'LICENSE'
+[0.821s] writing manifest file '../../build/detect_dobot/detect_dobot.egg-info/SOURCES.txt'
+[0.821s] running build
+[0.821s] running build_py
+[0.821s] copying ./detect_dobot/cartesian_ptp_node.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot
+[0.821s] running install
+[0.827s] running install_lib
+[0.842s] copying /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot/cartesian_ptp_node.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot
+[0.843s] byte-compiling /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot/cartesian_ptp_node.py to cartesian_ptp_node.cpython-312.pyc
+[0.845s] running install_data
+[0.845s] running install_egg_info
+[0.859s] removing '/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot-0.0.0-py3.12.egg-info' (and everything under it)
+[0.862s] Copying ../../build/detect_dobot/detect_dobot.egg-info to /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot-0.0.0-py3.12.egg-info
+[0.865s] running install_scripts
+[0.950s] Installing cartesian_ptp_node script to /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/detect_dobot
+[0.951s] Installing homing_node script to /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/detect_dobot
+[0.952s] Installing pick_and_place_node script to /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/detect_dobot
+[0.953s] Installing pose_ptp_node script to /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/detect_dobot
+[0.953s] Installing suction_cup_node script to /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/detect_dobot
+[0.954s] Installing vision_node script to /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/detect_dobot
+[0.955s] writing list of installed files to '/home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/install.log'
+[0.976s] Invoked command in '/home/dobot/Documents/DetectX/DetectX_Dobot/src/detect_dobot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages:/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages:/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/detect_dobot build --build-base /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build install --record /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/install.log --single-version-externally-managed install_data

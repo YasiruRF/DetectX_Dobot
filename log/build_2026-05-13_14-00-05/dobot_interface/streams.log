@@ -1,0 +1,284 @@
+[0.017s] Invoking command in '/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dobot/Documents/DetectX/DetectX_Dobot/src/dobot_interface -DCMAKE_INSTALL_PREFIX=/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface
+[0.194s] -- The C compiler identification is GNU 13.3.0
+[0.442s] -- The CXX compiler identification is GNU 13.3.0
+[0.468s] -- Detecting C compiler ABI info
+[0.653s] -- Detecting C compiler ABI info - done
+[0.659s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.661s] -- Detecting C compile features
+[0.662s] -- Detecting C compile features - done
+[0.674s] -- Detecting CXX compiler ABI info
+[0.802s] -- Detecting CXX compiler ABI info - done
+[0.802s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.803s] -- Detecting CXX compile features
+[0.803s] -- Detecting CXX compile features - done
+[0.819s] -- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)
+[0.948s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.094s] -- Found rosidl_default_generators: 1.7.1 (/opt/ros/kilted/share/rosidl_default_generators/cmake)
+[1.100s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.162s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.203s] -- Found rosidl_adapter: 4.9.6 (/opt/ros/kilted/share/rosidl_adapter/cmake)
+[1.206s] -- Found action_msgs: 2.3.0 (/opt/ros/kilted/share/action_msgs/cmake)
+[1.806s] -- Found ament_cmake_ros_core: 0.14.7 (/opt/ros/kilted/share/ament_cmake_ros_core/cmake)
+[2.184s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.694s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.140s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.174s] -- Found ament_lint_auto: 0.19.2 (/opt/ros/kilted/share/ament_lint_auto/cmake)
+[3.189s] -- Added test 'lint_cmake' to check CMake code style
+[3.189s] -- Added test 'xmllint' to check XML markup files
+[3.193s] -- Configuring done (3.2s)
+[3.242s] -- Generating done (0.0s)
+[3.252s] -- Build files have been written to: /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface
+[3.266s] Invoked command in '/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dobot/Documents/DetectX/DetectX_Dobot/src/dobot_interface -DCMAKE_INSTALL_PREFIX=/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface
+[3.266s] Invoking command in '/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface -- -j8 -l8
+[3.337s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[3.348s] [  2%] Built target ament_cmake_python_copy_dobot_interface
+[3.543s] [  2%] Built target dobot_interface__rosidl_generator_type_description
+[3.562s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.571s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.608s] running egg_info
+[3.608s] creating dobot_interface.egg-info
+[3.618s] writing dobot_interface.egg-info/PKG-INFO
+[3.618s] writing dependency_links to dobot_interface.egg-info/dependency_links.txt
+[3.618s] writing top-level names to dobot_interface.egg-info/top_level.txt
+[3.618s] writing manifest file 'dobot_interface.egg-info/SOURCES.txt'
+[3.698s] reading manifest file 'dobot_interface.egg-info/SOURCES.txt'
+[3.698s] writing manifest file 'dobot_interface.egg-info/SOURCES.txt'
+[3.813s] [  6%] Built target ament_cmake_python_build_dobot_interface_egg
+[4.185s] [  6%] Built target dobot_interface__cpp
+[4.237s] [ 11%] [32mBuilding C object CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.c.o[0m
+[4.237s] [ 11%] [32mBuilding C object CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.c.o[0m
+[4.237s] [ 15%] [32mBuilding C object CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.c.o[0m
+[4.237s] [ 15%] [32mBuilding C object CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__functions.c.o[0m
+[4.237s] [ 18%] [32mBuilding C object CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__description.c.o[0m
+[4.237s] [ 20%] [32mBuilding C object CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.c.o[0m
+[4.441s] [ 22%] [32m[1mLinking C shared library libdobot_interface__rosidl_generator_c.so[0m
+[4.496s] [ 22%] Built target dobot_interface__rosidl_generator_c
+[4.510s] [ 27%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.510s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.510s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.511s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.511s] [ 34%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.521s] [ 36%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.811s] [ 38%] [32mBuilding CXX object CMakeFiles/dobot_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/dobot_interface/srv/pick_and_place__type_support.cpp.o[0m
+[4.811s] [ 40%] [32mBuilding CXX object CMakeFiles/dobot_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/dobot_interface/action/pose_ptp__type_support.cpp.o[0m
+[4.865s] [ 43%] [32mBuilding CXX object CMakeFiles/dobot_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dobot_interface/srv/pick_and_place__type_support.cpp.o[0m
+[4.865s] [ 45%] [32mBuilding CXX object CMakeFiles/dobot_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dobot_interface/action/pose_ptp__type_support.cpp.o[0m
+[4.920s] [ 47%] [32m[1mLinking CXX shared library libdobot_interface__rosidl_typesupport_c.so[0m
+[4.959s] [ 50%] [32mBuilding C object CMakeFiles/dobot_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dobot_interface/srv/detail/pick_and_place__type_support.c.o[0m
+[4.959s] [ 52%] [32mBuilding C object CMakeFiles/dobot_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dobot_interface/action/detail/pose_ptp__type_support.c.o[0m
+[4.968s] [ 54%] [32mBuilding CXX object CMakeFiles/dobot_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dobot_interface/action/detail/pose_ptp__type_support.cpp.o[0m
+[5.016s] [ 54%] Built target dobot_interface__rosidl_typesupport_c
+[5.038s] [ 56%] [32mBuilding CXX object CMakeFiles/dobot_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dobot_interface/srv/detail/pick_and_place__type_support.cpp.o[0m
+[5.054s] [ 59%] [32m[1mLinking C shared library libdobot_interface__rosidl_typesupport_introspection_c.so[0m
+[5.057s] [ 61%] [32mBuilding CXX object CMakeFiles/dobot_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dobot_interface/action/detail/dds_fastrtps/pose_ptp__type_support.cpp.o[0m
+[5.074s] [ 63%] [32mBuilding CXX object CMakeFiles/dobot_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dobot_interface/srv/detail/dds_fastrtps/pick_and_place__type_support.cpp.o[0m
+[5.095s] [ 65%] [32mBuilding CXX object CMakeFiles/dobot_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dobot_interface/action/detail/pose_ptp__type_support_c.cpp.o[0m
+[5.144s] [ 65%] Built target dobot_interface__rosidl_typesupport_introspection_c
+[5.189s] [ 68%] [32mBuilding CXX object CMakeFiles/dobot_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dobot_interface/srv/detail/pick_and_place__type_support_c.cpp.o[0m
+[9.124s] [ 70%] [32m[1mLinking CXX shared library libdobot_interface__rosidl_typesupport_fastrtps_c.so[0m
+[9.152s] [ 72%] [32m[1mLinking CXX shared library libdobot_interface__rosidl_typesupport_introspection_cpp.so[0m
+[9.187s] [ 75%] [32m[1mLinking CXX shared library libdobot_interface__rosidl_typesupport_cpp.so[0m
+[9.302s] [ 75%] Built target dobot_interface__rosidl_typesupport_fastrtps_c
+[9.343s] [ 75%] Built target dobot_interface__rosidl_typesupport_introspection_cpp
+[9.413s] [ 75%] Built target dobot_interface__rosidl_typesupport_cpp
+[9.757s] [ 77%] [32m[1mLinking CXX shared library libdobot_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.833s] [ 77%] Built target dobot_interface__rosidl_typesupport_fastrtps_cpp
+[9.856s] [ 77%] Built target dobot_interface
+[9.881s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[10.430s] [ 79%] Built target dobot_interface__py
+[10.463s] [ 81%] [32mBuilding C object CMakeFiles/dobot_interface__rosidl_generator_py.dir/rosidl_generator_py/dobot_interface/action/_pose_ptp_s.c.o[0m
+[10.463s] [ 84%] [32mBuilding C object CMakeFiles/dobot_interface__rosidl_generator_py.dir/rosidl_generator_py/dobot_interface/srv/_pick_and_place_s.c.o[0m
+[10.844s] [ 86%] [32m[1mLinking C shared library libdobot_interface__rosidl_generator_py.so[0m
+[10.920s] [ 86%] Built target dobot_interface__rosidl_generator_py
+[10.968s] [ 88%] [32mBuilding C object CMakeFiles/dobot_interface_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[10.973s] [ 90%] [32mBuilding C object CMakeFiles/dobot_interface_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.981s] [ 93%] [32mBuilding C object CMakeFiles/dobot_interface_s__rosidl_typesupport_c.dir/rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[11.098s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/dobot_interface/dobot_interface_s__rosidl_typesupport_introspection_c.so[0m
+[11.140s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/dobot_interface/dobot_interface_s__rosidl_typesupport_c.so[0m
+[11.144s] [100%] [32m[1mLinking C shared module rosidl_generator_py/dobot_interface/dobot_interface_s__rosidl_typesupport_fastrtps_c.so[0m
+[11.148s] [100%] Built target dobot_interface_s__rosidl_typesupport_introspection_c
+[11.183s] [100%] Built target dobot_interface_s__rosidl_typesupport_c
+[11.229s] [100%] Built target dobot_interface_s__rosidl_typesupport_fastrtps_c
+[11.260s] Invoked command in '/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface -- -j8 -l8
+[11.275s] Invoking command in '/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface
+[11.297s] -- Install configuration: ""
+[11.297s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/ament_index/resource_index/rosidl_interfaces/dobot_interface
+[11.298s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/action/PosePTP.json
+[11.298s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/srv/PickAndPlace.json
+[11.299s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface
+[11.299s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action
+[11.299s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/pose_ptp.h
+[11.299s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail
+[11.299s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/pose_ptp__type_support.c
+[11.299s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/pose_ptp__type_support.h
+[11.299s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/pose_ptp__functions.c
+[11.300s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/pose_ptp__functions.h
+[11.300s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/pose_ptp__struct.h
+[11.300s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/pose_ptp__description.c
+[11.301s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv
+[11.301s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail
+[11.301s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail/pick_and_place__functions.h
+[11.301s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail/pick_and_place__functions.c
+[11.301s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail/pick_and_place__type_support.c
+[11.301s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail/pick_and_place__description.c
+[11.302s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail/pick_and_place__type_support.h
+[11.302s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail/pick_and_place__struct.h
+[11.302s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/pick_and_place.h
+[11.302s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/msg
+[11.302s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/msg/rosidl_generator_c__visibility_control.h
+[11.302s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/environment/library_path.sh
+[11.303s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/environment/library_path.dsv
+[11.303s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/libdobot_interface__rosidl_generator_c.so
+[11.303s] -- Set non-toolchain portion of runtime path of "/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/libdobot_interface__rosidl_generator_c.so" to ""
+[11.303s] -- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface
+[11.303s] -- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action
+[11.303s] -- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail
+[11.304s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/pose_ptp__rosidl_typesupport_fastrtps_c.h
+[11.304s] -- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv
+[11.304s] -- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail
+[11.304s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail/pick_and_place__rosidl_typesupport_fastrtps_c.h
+[11.304s] -- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/msg
+[11.304s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.304s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/libdobot_interface__rosidl_typesupport_fastrtps_c.so
+[11.305s] -- Set non-toolchain portion of runtime path of "/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/libdobot_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[11.305s] -- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface
+[11.305s] -- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action
+[11.305s] -- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail
+[11.305s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/pose_ptp__rosidl_typesupport_introspection_c.h
+[11.305s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/pose_ptp__type_support.c
+[11.305s] -- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv
+[11.305s] -- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail
+[11.305s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail/pick_and_place__type_support.c
+[11.305s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail/pick_and_place__rosidl_typesupport_introspection_c.h
+[11.305s] -- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/msg
+[11.307s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.308s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/libdobot_interface__rosidl_typesupport_introspection_c.so
+[11.308s] -- Set non-toolchain portion of runtime path of "/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/libdobot_interface__rosidl_typesupport_introspection_c.so" to ""
+[11.308s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/libdobot_interface__rosidl_typesupport_c.so
+[11.308s] -- Set non-toolchain portion of runtime path of "/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/libdobot_interface__rosidl_typesupport_c.so" to ""
+[11.308s] -- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface
+[11.308s] -- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action
+[11.308s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/pose_ptp.hpp
+[11.309s] -- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail
+[11.309s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/pose_ptp__struct.hpp
+[11.309s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/pose_ptp__builder.hpp
+[11.309s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/pose_ptp__traits.hpp
+[11.309s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/pose_ptp__type_support.hpp
+[11.309s] -- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv
+[11.309s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/pick_and_place.hpp
+[11.310s] -- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail
+[11.311s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail/pick_and_place__type_support.hpp
+[11.311s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail/pick_and_place__builder.hpp
+[11.311s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail/pick_and_place__struct.hpp
+[11.311s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail/pick_and_place__traits.hpp
+[11.311s] -- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/msg
+[11.311s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[11.311s] -- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface
+[11.311s] -- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action
+[11.311s] -- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail
+[11.311s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/pose_ptp__rosidl_typesupport_fastrtps_cpp.hpp
+[11.311s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/dds_fastrtps
+[11.311s] -- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv
+[11.311s] -- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail
+[11.311s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail/pick_and_place__rosidl_typesupport_fastrtps_cpp.hpp
+[11.311s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail/dds_fastrtps
+[11.311s] -- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/msg
+[11.311s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.311s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/libdobot_interface__rosidl_typesupport_fastrtps_cpp.so
+[11.311s] -- Set non-toolchain portion of runtime path of "/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/libdobot_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[11.311s] -- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface
+[11.311s] -- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action
+[11.311s] -- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail
+[11.312s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/pose_ptp__type_support.cpp
+[11.312s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/pose_ptp__rosidl_typesupport_introspection_cpp.hpp
+[11.312s] -- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv
+[11.312s] -- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail
+[11.312s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail/pick_and_place__type_support.cpp
+[11.312s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail/pick_and_place__rosidl_typesupport_introspection_cpp.hpp
+[11.312s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/libdobot_interface__rosidl_typesupport_introspection_cpp.so
+[11.312s] -- Set non-toolchain portion of runtime path of "/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/libdobot_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[11.312s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/libdobot_interface__rosidl_typesupport_cpp.so
+[11.312s] -- Set non-toolchain portion of runtime path of "/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/libdobot_interface__rosidl_typesupport_cpp.so" to ""
+[11.312s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/environment/pythonpath.sh
+[11.312s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/environment/pythonpath.dsv
+[11.312s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface-0.0.0-py3.12.egg-info
+[11.312s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface-0.0.0-py3.12.egg-info/top_level.txt
+[11.312s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface-0.0.0-py3.12.egg-info/PKG-INFO
+[11.314s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface-0.0.0-py3.12.egg-info/dependency_links.txt
+[11.314s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface-0.0.0-py3.12.egg-info/SOURCES.txt
+[11.314s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface
+[11.315s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/action
+[11.315s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/action/__init__.py
+[11.315s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/action/_pose_ptp_s.c
+[11.315s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/action/_pose_ptp.py
+[11.315s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/__init__.py
+[11.315s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/dobot_interface_s__rosidl_typesupport_c.so
+[11.315s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/srv
+[11.315s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/srv/_pick_and_place.py
+[11.315s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/srv/__init__.py
+[11.315s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/srv/_pick_and_place_s.c
+[11.315s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/dobot_interface_s__rosidl_typesupport_introspection_c.so
+[11.315s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_introspection_c.c
+[11.316s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.316s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/dobot_interface_s__rosidl_typesupport_fastrtps_c.so
+[11.316s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_c.c
+[11.364s] Listing '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface'...
+[11.364s] Compiling '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/__init__.py'...
+[11.364s] Listing '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/action'...
+[11.364s] Compiling '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/action/__init__.py'...
+[11.364s] Compiling '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/action/_pose_ptp.py'...
+[11.364s] Listing '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/srv'...
+[11.364s] Compiling '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/srv/__init__.py'...
+[11.364s] Compiling '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/srv/_pick_and_place.py'...
+[11.370s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/dobot_interface_s__rosidl_typesupport_fastrtps_c.so
+[11.370s] -- Set non-toolchain portion of runtime path of "/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/dobot_interface_s__rosidl_typesupport_fastrtps_c.so" to ""
+[11.370s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/dobot_interface_s__rosidl_typesupport_introspection_c.so
+[11.370s] -- Set non-toolchain portion of runtime path of "/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/dobot_interface_s__rosidl_typesupport_introspection_c.so" to ""
+[11.371s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/dobot_interface_s__rosidl_typesupport_c.so
+[11.371s] -- Set non-toolchain portion of runtime path of "/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/dobot_interface_s__rosidl_typesupport_c.so" to ""
+[11.372s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/libdobot_interface__rosidl_generator_py.so
+[11.372s] -- Set non-toolchain portion of runtime path of "/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/libdobot_interface__rosidl_generator_py.so" to ""
+[11.372s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/action/PosePTP.idl
+[11.372s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/srv/PickAndPlace.idl
+[11.372s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/action/PosePTP.action
+[11.372s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/srv/PickAndPlace.srv
+[11.372s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/ament_index/resource_index/package_run_dependencies/dobot_interface
+[11.372s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/ament_index/resource_index/parent_prefix_path/dobot_interface
+[11.372s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/environment/ament_prefix_path.sh
+[11.373s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/environment/ament_prefix_path.dsv
+[11.373s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/environment/path.sh
+[11.374s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/environment/path.dsv
+[11.374s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/local_setup.bash
+[11.374s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/local_setup.sh
+[11.374s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/local_setup.zsh
+[11.374s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/local_setup.dsv
+[11.374s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/package.dsv
+[11.375s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/ament_index/resource_index/packages/dobot_interface
+[11.375s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/export_dobot_interface__rosidl_generator_cExport.cmake
+[11.375s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/export_dobot_interface__rosidl_generator_cExport-noconfig.cmake
+[11.376s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/export_dobot_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[11.376s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/export_dobot_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.376s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/dobot_interface__rosidl_typesupport_introspection_cExport.cmake
+[11.376s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/dobot_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.376s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/dobot_interface__rosidl_typesupport_cExport.cmake
+[11.376s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/dobot_interface__rosidl_typesupport_cExport-noconfig.cmake
+[11.377s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/export_dobot_interface__rosidl_generator_cppExport.cmake
+[11.377s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/export_dobot_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.377s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/export_dobot_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.377s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/dobot_interface__rosidl_typesupport_introspection_cppExport.cmake
+[11.377s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/dobot_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.377s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/dobot_interface__rosidl_typesupport_cppExport.cmake
+[11.378s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/dobot_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[11.378s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/export_dobot_interface__rosidl_generator_pyExport.cmake
+[11.378s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/export_dobot_interface__rosidl_generator_pyExport-noconfig.cmake
+[11.378s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/rosidl_cmake-extras.cmake
+[11.378s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.378s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.378s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[11.378s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/ament_cmake_export_targets-extras.cmake
+[11.378s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.378s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.378s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/dobot_interfaceConfig.cmake
+[11.378s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/dobot_interfaceConfig-version.cmake
+[11.378s] -- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/package.xml
+[11.381s] Invoked command in '/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface

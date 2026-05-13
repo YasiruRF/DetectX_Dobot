@@ -1,0 +1,212 @@
+[0.096s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.096s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7e60c44a8da0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e60c45d9250>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e60c45d9250>>, mixin_verb=('build',))
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.140s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dobot/Documents/DetectX/DetectX_Dobot'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect_dobot) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect_dobot) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect_dobot) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect_dobot) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect_dobot) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect_dobot) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect_dobot) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect_dobot) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/detect_dobot) by extension 'ros'
+[0.165s] DEBUG:colcon.colcon_core.package_identification:Package 'src/detect_dobot' with type 'ros.ament_python' and name 'detect_dobot'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_interface) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_interface) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_interface) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_interface) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_interface) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_interface) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_interface) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/dobot_interface) by extension 'ros'
+[0.166s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dobot_interface' with type 'ros.ament_cmake' and name 'dobot_interface'
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.185s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.185s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.185s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.186s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/dobot/Documents/DetectX/DetectX_Dobot/install
+[0.187s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 292 installed packages in /opt/ros/kilted
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'dobot_interface' build argument 'cmake_args' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'dobot_interface' build argument 'cmake_target' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'dobot_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'dobot_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'dobot_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'dobot_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'dobot_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'dobot_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'dobot_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.238s] DEBUG:colcon.colcon_core.verb:Building package 'dobot_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface', 'merge_install': False, 'path': '/home/dobot/Documents/DetectX/DetectX_Dobot/src/dobot_interface', 'symlink_install': False, 'test_result_base': None}
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'detect_dobot' build argument 'cmake_args' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'detect_dobot' build argument 'cmake_target' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'detect_dobot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'detect_dobot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'detect_dobot' build argument 'cmake_clean_first' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'detect_dobot' build argument 'cmake_force_configure' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'detect_dobot' build argument 'ament_cmake_args' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'detect_dobot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'detect_dobot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.238s] DEBUG:colcon.colcon_core.verb:Building package 'detect_dobot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot', 'merge_install': False, 'path': '/home/dobot/Documents/DetectX/DetectX_Dobot/src/detect_dobot', 'symlink_install': False, 'test_result_base': None}
+[0.238s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.239s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.240s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dobot/Documents/DetectX/DetectX_Dobot/src/dobot_interface' with build type 'ament_cmake'
+[0.240s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dobot/Documents/DetectX/DetectX_Dobot/src/dobot_interface'
+[0.243s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.243s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.243s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dobot/Documents/DetectX/DetectX_Dobot/src/dobot_interface -DCMAKE_INSTALL_PREFIX=/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface
+[3.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dobot/Documents/DetectX/DetectX_Dobot/src/dobot_interface -DCMAKE_INSTALL_PREFIX=/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface
+[3.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface -- -j8 -l8
+[11.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface -- -j8 -l8
+[11.516s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface
+[11.621s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_interface)
+[11.622s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface
+[11.624s] Level 1:colcon.colcon_core.environment:checking '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface' for CMake module files
+[11.627s] Level 1:colcon.colcon_core.environment:checking '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface' for CMake config files
+[11.630s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_interface', 'cmake_prefix_path')
+[11.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/hook/cmake_prefix_path.ps1'
+[11.631s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/hook/cmake_prefix_path.dsv'
+[11.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/hook/cmake_prefix_path.sh'
+[11.632s] Level 1:colcon.colcon_core.environment:checking '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib'
+[11.632s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_interface', 'ld_library_path_lib')
+[11.632s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/hook/ld_library_path_lib.ps1'
+[11.633s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/hook/ld_library_path_lib.dsv'
+[11.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/hook/ld_library_path_lib.sh'
+[11.633s] Level 1:colcon.colcon_core.environment:checking '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/bin'
+[11.633s] Level 1:colcon.colcon_core.environment:checking '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/pkgconfig/dobot_interface.pc'
+[11.633s] Level 1:colcon.colcon_core.environment:checking '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages'
+[11.633s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_interface', 'pythonpath')
+[11.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/hook/pythonpath.ps1'
+[11.634s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/hook/pythonpath.dsv'
+[11.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/hook/pythonpath.sh'
+[11.635s] Level 1:colcon.colcon_core.environment:checking '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/bin'
+[11.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/package.ps1'
+[11.636s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/package.dsv'
+[11.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/package.sh'
+[11.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/package.bash'
+[11.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/package.zsh'
+[11.640s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/colcon-core/packages/dobot_interface)
+[11.642s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dobot_interface)
+[11.642s] Level 1:colcon.colcon_core.environment:checking '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface' for CMake module files
+[11.642s] Level 1:colcon.colcon_core.environment:checking '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface' for CMake config files
+[11.643s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_interface', 'cmake_prefix_path')
+[11.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/hook/cmake_prefix_path.ps1'
+[11.649s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/hook/cmake_prefix_path.dsv'
+[11.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/hook/cmake_prefix_path.sh'
+[11.655s] Level 1:colcon.colcon_core.environment:checking '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib'
+[11.655s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_interface', 'ld_library_path_lib')
+[11.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/hook/ld_library_path_lib.ps1'
+[11.656s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/hook/ld_library_path_lib.dsv'
+[11.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/hook/ld_library_path_lib.sh'
+[11.659s] Level 1:colcon.colcon_core.environment:checking '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/bin'
+[11.659s] Level 1:colcon.colcon_core.environment:checking '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/pkgconfig/dobot_interface.pc'
+[11.659s] Level 1:colcon.colcon_core.environment:checking '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages'
+[11.660s] Level 1:colcon.colcon_core.shell:create_environment_hook('dobot_interface', 'pythonpath')
+[11.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/hook/pythonpath.ps1'
+[11.660s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/hook/pythonpath.dsv'
+[11.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/hook/pythonpath.sh'
+[11.662s] Level 1:colcon.colcon_core.environment:checking '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/bin'
+[11.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/package.ps1'
+[11.662s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/package.dsv'
+[11.663s] INFO:colcon.colcon_core.shell:Creating package script '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/package.sh'
+[11.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/package.bash'
+[11.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/package.zsh'
+[11.665s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/colcon-core/packages/dobot_interface)
+[11.666s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dobot/Documents/DetectX/DetectX_Dobot/src/detect_dobot' with build type 'ament_python'
+[11.666s] Level 1:colcon.colcon_core.shell:create_environment_hook('detect_dobot', 'ament_prefix_path')
+[11.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/share/detect_dobot/hook/ament_prefix_path.ps1'
+[11.667s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/share/detect_dobot/hook/ament_prefix_path.dsv'
+[11.668s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/share/detect_dobot/hook/ament_prefix_path.sh'
+[11.668s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.668s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.938s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dobot/Documents/DetectX/DetectX_Dobot/src/detect_dobot'
+[11.938s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.938s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.544s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dobot/Documents/DetectX/DetectX_Dobot/src/detect_dobot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages:/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages:/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/detect_dobot build --build-base /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build install --record /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/install.log --single-version-externally-managed install_data
+[12.945s] Level 1:colcon.colcon_core.environment:checking '/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot' for CMake module files
+[12.946s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dobot/Documents/DetectX/DetectX_Dobot/src/detect_dobot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages:/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages:/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/detect_dobot build --build-base /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build install --record /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/install.log --single-version-externally-managed install_data
+[12.946s] Level 1:colcon.colcon_core.environment:checking '/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot' for CMake config files
+[12.947s] Level 1:colcon.colcon_core.environment:checking '/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib'
+[12.947s] Level 1:colcon.colcon_core.environment:checking '/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/bin'
+[12.947s] Level 1:colcon.colcon_core.environment:checking '/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/pkgconfig/detect_dobot.pc'
+[12.947s] Level 1:colcon.colcon_core.environment:checking '/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages'
+[12.947s] Level 1:colcon.colcon_core.shell:create_environment_hook('detect_dobot', 'pythonpath')
+[12.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/share/detect_dobot/hook/pythonpath.ps1'
+[12.948s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/share/detect_dobot/hook/pythonpath.dsv'
+[12.948s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/share/detect_dobot/hook/pythonpath.sh'
+[12.949s] Level 1:colcon.colcon_core.environment:checking '/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/bin'
+[12.949s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(detect_dobot)
+[12.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/share/detect_dobot/package.ps1'
+[12.950s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/share/detect_dobot/package.dsv'
+[12.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/share/detect_dobot/package.sh'
+[12.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/share/detect_dobot/package.bash'
+[12.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/share/detect_dobot/package.zsh'
+[12.951s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/share/colcon-core/packages/detect_dobot)
+[12.952s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.952s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.952s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.952s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.965s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.965s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.965s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.981s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.981s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dobot/Documents/DetectX/DetectX_Dobot/install/local_setup.ps1'
+[12.982s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dobot/Documents/DetectX/DetectX_Dobot/install/_local_setup_util_ps1.py'
+[12.983s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dobot/Documents/DetectX/DetectX_Dobot/install/setup.ps1'
+[12.983s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dobot/Documents/DetectX/DetectX_Dobot/install/local_setup.sh'
+[12.984s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dobot/Documents/DetectX/DetectX_Dobot/install/_local_setup_util_sh.py'
+[12.984s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dobot/Documents/DetectX/DetectX_Dobot/install/setup.sh'
+[12.985s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dobot/Documents/DetectX/DetectX_Dobot/install/local_setup.bash'
+[12.985s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dobot/Documents/DetectX/DetectX_Dobot/install/setup.bash'
+[12.986s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dobot/Documents/DetectX/DetectX_Dobot/install/local_setup.zsh'
+[12.986s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dobot/Documents/DetectX/DetectX_Dobot/install/setup.zsh'

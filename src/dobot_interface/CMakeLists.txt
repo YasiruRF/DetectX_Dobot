@@ -13,6 +13,7 @@ find_package(action_msgs REQUIRED)
 # Generate action interfaces
 rosidl_generate_interfaces(${PROJECT_NAME}
   "action/PosePTP.action"
+  "srv/PickAndPlace.srv"
   DEPENDENCIES action_msgs
 )
 

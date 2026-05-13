@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_generator_py/dobot_interface/action/_pose_ptp_s.c" "CMakeFiles/dobot_interface__rosidl_generator_py.dir/rosidl_generator_py/dobot_interface/action/_pose_ptp_s.c.o" "gcc" "CMakeFiles/dobot_interface__rosidl_generator_py.dir/rosidl_generator_py/dobot_interface/action/_pose_ptp_s.c.o.d"
+  "/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_py/dobot_interface/action/_pose_ptp_s.c" "CMakeFiles/dobot_interface__rosidl_generator_py.dir/rosidl_generator_py/dobot_interface/action/_pose_ptp_s.c.o" "gcc" "CMakeFiles/dobot_interface__rosidl_generator_py.dir/rosidl_generator_py/dobot_interface/action/_pose_ptp_s.c.o.d"
+  "/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_py/dobot_interface/srv/_pick_and_place_s.c" "CMakeFiles/dobot_interface__rosidl_generator_py.dir/rosidl_generator_py/dobot_interface/srv/_pick_and_place_s.c.o" "gcc" "CMakeFiles/dobot_interface__rosidl_generator_py.dir/rosidl_generator_py/dobot_interface/srv/_pick_and_place_s.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

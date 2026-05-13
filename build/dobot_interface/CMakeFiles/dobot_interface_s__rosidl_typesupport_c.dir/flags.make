@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DROS_PACKAGE_NAME=\"dobot_interface\" -Ddobot_interface_s__rosidl_typesupport_c_EXPORTS
 
-C_INCLUDES = -I/mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_generator_c -I/mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_generator_py -isystem /usr/include/python3.12 -isystem /opt/ros/kilted/include/action_msgs -isystem /opt/ros/kilted/include/builtin_interfaces -isystem /opt/ros/kilted/include/rosidl_runtime_c -isystem /opt/ros/kilted/include/rcutils -isystem /opt/ros/kilted/include/rosidl_typesupport_interface -isystem /opt/ros/kilted/include/unique_identifier_msgs -isystem /opt/ros/kilted/include/service_msgs -isystem /opt/ros/kilted/include/rosidl_typesupport_c
+C_INCLUDES = -I/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_c -I/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_py -isystem /usr/include/python3.12 -isystem /opt/ros/kilted/include/action_msgs -isystem /opt/ros/kilted/include/builtin_interfaces -isystem /opt/ros/kilted/include/rosidl_runtime_c -isystem /opt/ros/kilted/include/rcutils -isystem /opt/ros/kilted/include/rosidl_typesupport_interface -isystem /opt/ros/kilted/include/unique_identifier_msgs -isystem /opt/ros/kilted/include/service_msgs -isystem /opt/ros/kilted/include/rosidl_typesupport_c
 
 C_FLAGS = -fPIC -Wall -Wextra
 

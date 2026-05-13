@@ -1,7 +1,7 @@
 CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__description.c.o: \
- /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__description.c \
+ /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__description.c \
  /usr/include/stdc-predef.h \
- /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__functions.h \
+ /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__functions.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -65,8 +65,8 @@ CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_inte
  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
  /opt/ros/kilted/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
- /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_generator_c/dobot_interface/msg/rosidl_generator_c__visibility_control.h \
- /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__struct.h \
+ /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_c/dobot_interface/msg/rosidl_generator_c__visibility_control.h \
+ /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__struct.h \
  /opt/ros/kilted/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
  /opt/ros/kilted/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
  /opt/ros/kilted/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h \

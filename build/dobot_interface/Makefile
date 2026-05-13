@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/src/dobot_interface
+CMAKE_SOURCE_DIR = /home/dobot/Documents/DetectX/DetectX_Dobot/src/dobot_interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface
+CMAKE_BINARY_DIR = /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/CMakeFiles /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/CMakeFiles /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -415,21 +415,8 @@ dobot_interface__py: cmake_check_build_system
 
 # fast build rule for target.
 dobot_interface__py/fast:
-	$(MAKE) $(MAKESILENT) -f /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/build.make /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/build
+	$(MAKE) $(MAKESILENT) -f /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/build.make /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/build
 .PHONY : dobot_interface__py/fast
-
-#=============================================================================
-# Target rules for targets named dobot_interface__rs
-
-# Build rule for target.
-dobot_interface__rs: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dobot_interface__rs
-.PHONY : dobot_interface__rs
-
-# fast build rule for target.
-dobot_interface__rs/fast:
-	$(MAKE) $(MAKESILENT) -f /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/dobot_interface__rs/CMakeFiles/dobot_interface__rs.dir/build.make /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/dobot_interface__rs/CMakeFiles/dobot_interface__rs.dir/build
-.PHONY : dobot_interface__rs/fast
 
 rosidl_generator_c/dobot_interface/action/detail/pose_ptp__description.o: rosidl_generator_c/dobot_interface/action/detail/pose_ptp__description.c.o
 .PHONY : rosidl_generator_c/dobot_interface/action/detail/pose_ptp__description.o
@@ -502,6 +489,78 @@ rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.s: rosid
 rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_generator_c.dir/build.make CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.c.s
 .PHONY : rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.c.s
+
+rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.o: rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.c.o
+.PHONY : rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.o
+
+# target to build an object file
+rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_generator_c.dir/build.make CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.c.o
+.PHONY : rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.c.o
+
+rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.i: rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.c.i
+.PHONY : rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.i
+
+# target to preprocess a source file
+rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_generator_c.dir/build.make CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.c.i
+.PHONY : rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.c.i
+
+rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.s: rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.c.s
+.PHONY : rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.s
+
+# target to generate assembly for a file
+rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_generator_c.dir/build.make CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.c.s
+.PHONY : rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.c.s
+
+rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.o: rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.c.o
+.PHONY : rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.o
+
+# target to build an object file
+rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_generator_c.dir/build.make CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.c.o
+.PHONY : rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.c.o
+
+rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.i: rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.c.i
+.PHONY : rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_generator_c.dir/build.make CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.c.i
+.PHONY : rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.c.i
+
+rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.s: rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.c.s
+.PHONY : rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_generator_c.dir/build.make CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.c.s
+.PHONY : rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.c.s
+
+rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.o: rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.c.o
+.PHONY : rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.o
+
+# target to build an object file
+rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_generator_c.dir/build.make CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.c.o
+.PHONY : rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.c.o
+
+rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.i: rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.c.i
+.PHONY : rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.i
+
+# target to preprocess a source file
+rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_generator_c.dir/build.make CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.c.i
+.PHONY : rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.c.i
+
+rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.s: rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.c.s
+.PHONY : rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.s
+
+# target to generate assembly for a file
+rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_generator_c.dir/build.make CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.c.s
+.PHONY : rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.c.s
 
 rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_c.o: rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_c.c.o
 .PHONY : rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_c.o
@@ -599,6 +658,30 @@ rosidl_generator_py/dobot_interface/action/_pose_ptp_s.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_generator_py.dir/build.make CMakeFiles/dobot_interface__rosidl_generator_py.dir/rosidl_generator_py/dobot_interface/action/_pose_ptp_s.c.s
 .PHONY : rosidl_generator_py/dobot_interface/action/_pose_ptp_s.c.s
 
+rosidl_generator_py/dobot_interface/srv/_pick_and_place_s.o: rosidl_generator_py/dobot_interface/srv/_pick_and_place_s.c.o
+.PHONY : rosidl_generator_py/dobot_interface/srv/_pick_and_place_s.o
+
+# target to build an object file
+rosidl_generator_py/dobot_interface/srv/_pick_and_place_s.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_generator_py.dir/build.make CMakeFiles/dobot_interface__rosidl_generator_py.dir/rosidl_generator_py/dobot_interface/srv/_pick_and_place_s.c.o
+.PHONY : rosidl_generator_py/dobot_interface/srv/_pick_and_place_s.c.o
+
+rosidl_generator_py/dobot_interface/srv/_pick_and_place_s.i: rosidl_generator_py/dobot_interface/srv/_pick_and_place_s.c.i
+.PHONY : rosidl_generator_py/dobot_interface/srv/_pick_and_place_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/dobot_interface/srv/_pick_and_place_s.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_generator_py.dir/build.make CMakeFiles/dobot_interface__rosidl_generator_py.dir/rosidl_generator_py/dobot_interface/srv/_pick_and_place_s.c.i
+.PHONY : rosidl_generator_py/dobot_interface/srv/_pick_and_place_s.c.i
+
+rosidl_generator_py/dobot_interface/srv/_pick_and_place_s.s: rosidl_generator_py/dobot_interface/srv/_pick_and_place_s.c.s
+.PHONY : rosidl_generator_py/dobot_interface/srv/_pick_and_place_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/dobot_interface/srv/_pick_and_place_s.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_generator_py.dir/build.make CMakeFiles/dobot_interface__rosidl_generator_py.dir/rosidl_generator_py/dobot_interface/srv/_pick_and_place_s.c.s
+.PHONY : rosidl_generator_py/dobot_interface/srv/_pick_and_place_s.c.s
+
 rosidl_typesupport_c/dobot_interface/action/pose_ptp__type_support.o: rosidl_typesupport_c/dobot_interface/action/pose_ptp__type_support.cpp.o
 .PHONY : rosidl_typesupport_c/dobot_interface/action/pose_ptp__type_support.o
 
@@ -622,6 +705,30 @@ rosidl_typesupport_c/dobot_interface/action/pose_ptp__type_support.s: rosidl_typ
 rosidl_typesupport_c/dobot_interface/action/pose_ptp__type_support.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_typesupport_c.dir/build.make CMakeFiles/dobot_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/dobot_interface/action/pose_ptp__type_support.cpp.s
 .PHONY : rosidl_typesupport_c/dobot_interface/action/pose_ptp__type_support.cpp.s
+
+rosidl_typesupport_c/dobot_interface/srv/pick_and_place__type_support.o: rosidl_typesupport_c/dobot_interface/srv/pick_and_place__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/dobot_interface/srv/pick_and_place__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/dobot_interface/srv/pick_and_place__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_typesupport_c.dir/build.make CMakeFiles/dobot_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/dobot_interface/srv/pick_and_place__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/dobot_interface/srv/pick_and_place__type_support.cpp.o
+
+rosidl_typesupport_c/dobot_interface/srv/pick_and_place__type_support.i: rosidl_typesupport_c/dobot_interface/srv/pick_and_place__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/dobot_interface/srv/pick_and_place__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/dobot_interface/srv/pick_and_place__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_typesupport_c.dir/build.make CMakeFiles/dobot_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/dobot_interface/srv/pick_and_place__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/dobot_interface/srv/pick_and_place__type_support.cpp.i
+
+rosidl_typesupport_c/dobot_interface/srv/pick_and_place__type_support.s: rosidl_typesupport_c/dobot_interface/srv/pick_and_place__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/dobot_interface/srv/pick_and_place__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/dobot_interface/srv/pick_and_place__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_typesupport_c.dir/build.make CMakeFiles/dobot_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/dobot_interface/srv/pick_and_place__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/dobot_interface/srv/pick_and_place__type_support.cpp.s
 
 rosidl_typesupport_cpp/dobot_interface/action/pose_ptp__type_support.o: rosidl_typesupport_cpp/dobot_interface/action/pose_ptp__type_support.cpp.o
 .PHONY : rosidl_typesupport_cpp/dobot_interface/action/pose_ptp__type_support.o
@@ -647,6 +754,30 @@ rosidl_typesupport_cpp/dobot_interface/action/pose_ptp__type_support.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_typesupport_cpp.dir/build.make CMakeFiles/dobot_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dobot_interface/action/pose_ptp__type_support.cpp.s
 .PHONY : rosidl_typesupport_cpp/dobot_interface/action/pose_ptp__type_support.cpp.s
 
+rosidl_typesupport_cpp/dobot_interface/srv/pick_and_place__type_support.o: rosidl_typesupport_cpp/dobot_interface/srv/pick_and_place__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/dobot_interface/srv/pick_and_place__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/dobot_interface/srv/pick_and_place__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_typesupport_cpp.dir/build.make CMakeFiles/dobot_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dobot_interface/srv/pick_and_place__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/dobot_interface/srv/pick_and_place__type_support.cpp.o
+
+rosidl_typesupport_cpp/dobot_interface/srv/pick_and_place__type_support.i: rosidl_typesupport_cpp/dobot_interface/srv/pick_and_place__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/dobot_interface/srv/pick_and_place__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/dobot_interface/srv/pick_and_place__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_typesupport_cpp.dir/build.make CMakeFiles/dobot_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dobot_interface/srv/pick_and_place__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/dobot_interface/srv/pick_and_place__type_support.cpp.i
+
+rosidl_typesupport_cpp/dobot_interface/srv/pick_and_place__type_support.s: rosidl_typesupport_cpp/dobot_interface/srv/pick_and_place__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/dobot_interface/srv/pick_and_place__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/dobot_interface/srv/pick_and_place__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_typesupport_cpp.dir/build.make CMakeFiles/dobot_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dobot_interface/srv/pick_and_place__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/dobot_interface/srv/pick_and_place__type_support.cpp.s
+
 rosidl_typesupport_fastrtps_c/dobot_interface/action/detail/pose_ptp__type_support_c.o: rosidl_typesupport_fastrtps_c/dobot_interface/action/detail/pose_ptp__type_support_c.cpp.o
 .PHONY : rosidl_typesupport_fastrtps_c/dobot_interface/action/detail/pose_ptp__type_support_c.o
 
@@ -670,6 +801,30 @@ rosidl_typesupport_fastrtps_c/dobot_interface/action/detail/pose_ptp__type_suppo
 rosidl_typesupport_fastrtps_c/dobot_interface/action/detail/pose_ptp__type_support_c.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/dobot_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dobot_interface/action/detail/pose_ptp__type_support_c.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_c/dobot_interface/action/detail/pose_ptp__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_c/dobot_interface/srv/detail/pick_and_place__type_support_c.o: rosidl_typesupport_fastrtps_c/dobot_interface/srv/detail/pick_and_place__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/dobot_interface/srv/detail/pick_and_place__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/dobot_interface/srv/detail/pick_and_place__type_support_c.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/dobot_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dobot_interface/srv/detail/pick_and_place__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/dobot_interface/srv/detail/pick_and_place__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/dobot_interface/srv/detail/pick_and_place__type_support_c.i: rosidl_typesupport_fastrtps_c/dobot_interface/srv/detail/pick_and_place__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/dobot_interface/srv/detail/pick_and_place__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/dobot_interface/srv/detail/pick_and_place__type_support_c.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/dobot_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dobot_interface/srv/detail/pick_and_place__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/dobot_interface/srv/detail/pick_and_place__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/dobot_interface/srv/detail/pick_and_place__type_support_c.s: rosidl_typesupport_fastrtps_c/dobot_interface/srv/detail/pick_and_place__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/dobot_interface/srv/detail/pick_and_place__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/dobot_interface/srv/detail/pick_and_place__type_support_c.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/dobot_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dobot_interface/srv/detail/pick_and_place__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/dobot_interface/srv/detail/pick_and_place__type_support_c.cpp.s
 
 rosidl_typesupport_fastrtps_cpp/dobot_interface/action/detail/dds_fastrtps/pose_ptp__type_support.o: rosidl_typesupport_fastrtps_cpp/dobot_interface/action/detail/dds_fastrtps/pose_ptp__type_support.cpp.o
 .PHONY : rosidl_typesupport_fastrtps_cpp/dobot_interface/action/detail/dds_fastrtps/pose_ptp__type_support.o
@@ -695,6 +850,30 @@ rosidl_typesupport_fastrtps_cpp/dobot_interface/action/detail/dds_fastrtps/pose_
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/dobot_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dobot_interface/action/detail/dds_fastrtps/pose_ptp__type_support.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_cpp/dobot_interface/action/detail/dds_fastrtps/pose_ptp__type_support.cpp.s
 
+rosidl_typesupport_fastrtps_cpp/dobot_interface/srv/detail/dds_fastrtps/pick_and_place__type_support.o: rosidl_typesupport_fastrtps_cpp/dobot_interface/srv/detail/dds_fastrtps/pick_and_place__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/dobot_interface/srv/detail/dds_fastrtps/pick_and_place__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/dobot_interface/srv/detail/dds_fastrtps/pick_and_place__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/dobot_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dobot_interface/srv/detail/dds_fastrtps/pick_and_place__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/dobot_interface/srv/detail/dds_fastrtps/pick_and_place__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/dobot_interface/srv/detail/dds_fastrtps/pick_and_place__type_support.i: rosidl_typesupport_fastrtps_cpp/dobot_interface/srv/detail/dds_fastrtps/pick_and_place__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/dobot_interface/srv/detail/dds_fastrtps/pick_and_place__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/dobot_interface/srv/detail/dds_fastrtps/pick_and_place__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/dobot_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dobot_interface/srv/detail/dds_fastrtps/pick_and_place__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/dobot_interface/srv/detail/dds_fastrtps/pick_and_place__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/dobot_interface/srv/detail/dds_fastrtps/pick_and_place__type_support.s: rosidl_typesupport_fastrtps_cpp/dobot_interface/srv/detail/dds_fastrtps/pick_and_place__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/dobot_interface/srv/detail/dds_fastrtps/pick_and_place__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/dobot_interface/srv/detail/dds_fastrtps/pick_and_place__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/dobot_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dobot_interface/srv/detail/dds_fastrtps/pick_and_place__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/dobot_interface/srv/detail/dds_fastrtps/pick_and_place__type_support.cpp.s
+
 rosidl_typesupport_introspection_c/dobot_interface/action/detail/pose_ptp__type_support.o: rosidl_typesupport_introspection_c/dobot_interface/action/detail/pose_ptp__type_support.c.o
 .PHONY : rosidl_typesupport_introspection_c/dobot_interface/action/detail/pose_ptp__type_support.o
 
@@ -718,6 +897,30 @@ rosidl_typesupport_introspection_c/dobot_interface/action/detail/pose_ptp__type_
 rosidl_typesupport_introspection_c/dobot_interface/action/detail/pose_ptp__type_support.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/dobot_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dobot_interface/action/detail/pose_ptp__type_support.c.s
 .PHONY : rosidl_typesupport_introspection_c/dobot_interface/action/detail/pose_ptp__type_support.c.s
+
+rosidl_typesupport_introspection_c/dobot_interface/srv/detail/pick_and_place__type_support.o: rosidl_typesupport_introspection_c/dobot_interface/srv/detail/pick_and_place__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/dobot_interface/srv/detail/pick_and_place__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/dobot_interface/srv/detail/pick_and_place__type_support.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/dobot_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dobot_interface/srv/detail/pick_and_place__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/dobot_interface/srv/detail/pick_and_place__type_support.c.o
+
+rosidl_typesupport_introspection_c/dobot_interface/srv/detail/pick_and_place__type_support.i: rosidl_typesupport_introspection_c/dobot_interface/srv/detail/pick_and_place__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/dobot_interface/srv/detail/pick_and_place__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/dobot_interface/srv/detail/pick_and_place__type_support.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/dobot_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dobot_interface/srv/detail/pick_and_place__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/dobot_interface/srv/detail/pick_and_place__type_support.c.i
+
+rosidl_typesupport_introspection_c/dobot_interface/srv/detail/pick_and_place__type_support.s: rosidl_typesupport_introspection_c/dobot_interface/srv/detail/pick_and_place__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/dobot_interface/srv/detail/pick_and_place__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/dobot_interface/srv/detail/pick_and_place__type_support.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/dobot_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dobot_interface/srv/detail/pick_and_place__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/dobot_interface/srv/detail/pick_and_place__type_support.c.s
 
 rosidl_typesupport_introspection_cpp/dobot_interface/action/detail/pose_ptp__type_support.o: rosidl_typesupport_introspection_cpp/dobot_interface/action/detail/pose_ptp__type_support.cpp.o
 .PHONY : rosidl_typesupport_introspection_cpp/dobot_interface/action/detail/pose_ptp__type_support.o
@@ -743,6 +946,30 @@ rosidl_typesupport_introspection_cpp/dobot_interface/action/detail/pose_ptp__typ
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/dobot_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dobot_interface/action/detail/pose_ptp__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/dobot_interface/action/detail/pose_ptp__type_support.cpp.s
 
+rosidl_typesupport_introspection_cpp/dobot_interface/srv/detail/pick_and_place__type_support.o: rosidl_typesupport_introspection_cpp/dobot_interface/srv/detail/pick_and_place__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/dobot_interface/srv/detail/pick_and_place__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/dobot_interface/srv/detail/pick_and_place__type_support.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/dobot_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dobot_interface/srv/detail/pick_and_place__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/dobot_interface/srv/detail/pick_and_place__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/dobot_interface/srv/detail/pick_and_place__type_support.i: rosidl_typesupport_introspection_cpp/dobot_interface/srv/detail/pick_and_place__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/dobot_interface/srv/detail/pick_and_place__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/dobot_interface/srv/detail/pick_and_place__type_support.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/dobot_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dobot_interface/srv/detail/pick_and_place__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/dobot_interface/srv/detail/pick_and_place__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/dobot_interface/srv/detail/pick_and_place__type_support.s: rosidl_typesupport_introspection_cpp/dobot_interface/srv/detail/pick_and_place__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/dobot_interface/srv/detail/pick_and_place__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/dobot_interface/srv/detail/pick_and_place__type_support.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dobot_interface__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/dobot_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dobot_interface/srv/detail/pick_and_place__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/dobot_interface/srv/detail/pick_and_place__type_support.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -762,7 +989,6 @@ help:
 	@echo "... dobot_interface__cpp"
 	@echo "... dobot_interface__py"
 	@echo "... dobot_interface__rosidl_generator_type_description"
-	@echo "... dobot_interface__rs"
 	@echo "... dobot_interface_uninstall"
 	@echo "... uninstall"
 	@echo "... dobot_interface__rosidl_generator_c"
@@ -785,6 +1011,15 @@ help:
 	@echo "... rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.o"
 	@echo "... rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.i"
 	@echo "... rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.s"
+	@echo "... rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.o"
+	@echo "... rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.i"
+	@echo "... rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.s"
+	@echo "... rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.o"
+	@echo "... rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.i"
+	@echo "... rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.s"
+	@echo "... rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.o"
+	@echo "... rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.i"
+	@echo "... rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.s"
 	@echo "... rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_c.o"
 	@echo "... rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_c.i"
 	@echo "... rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_c.s"
@@ -797,24 +1032,45 @@ help:
 	@echo "... rosidl_generator_py/dobot_interface/action/_pose_ptp_s.o"
 	@echo "... rosidl_generator_py/dobot_interface/action/_pose_ptp_s.i"
 	@echo "... rosidl_generator_py/dobot_interface/action/_pose_ptp_s.s"
+	@echo "... rosidl_generator_py/dobot_interface/srv/_pick_and_place_s.o"
+	@echo "... rosidl_generator_py/dobot_interface/srv/_pick_and_place_s.i"
+	@echo "... rosidl_generator_py/dobot_interface/srv/_pick_and_place_s.s"
 	@echo "... rosidl_typesupport_c/dobot_interface/action/pose_ptp__type_support.o"
 	@echo "... rosidl_typesupport_c/dobot_interface/action/pose_ptp__type_support.i"
 	@echo "... rosidl_typesupport_c/dobot_interface/action/pose_ptp__type_support.s"
+	@echo "... rosidl_typesupport_c/dobot_interface/srv/pick_and_place__type_support.o"
+	@echo "... rosidl_typesupport_c/dobot_interface/srv/pick_and_place__type_support.i"
+	@echo "... rosidl_typesupport_c/dobot_interface/srv/pick_and_place__type_support.s"
 	@echo "... rosidl_typesupport_cpp/dobot_interface/action/pose_ptp__type_support.o"
 	@echo "... rosidl_typesupport_cpp/dobot_interface/action/pose_ptp__type_support.i"
 	@echo "... rosidl_typesupport_cpp/dobot_interface/action/pose_ptp__type_support.s"
+	@echo "... rosidl_typesupport_cpp/dobot_interface/srv/pick_and_place__type_support.o"
+	@echo "... rosidl_typesupport_cpp/dobot_interface/srv/pick_and_place__type_support.i"
+	@echo "... rosidl_typesupport_cpp/dobot_interface/srv/pick_and_place__type_support.s"
 	@echo "... rosidl_typesupport_fastrtps_c/dobot_interface/action/detail/pose_ptp__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/dobot_interface/action/detail/pose_ptp__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/dobot_interface/action/detail/pose_ptp__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/dobot_interface/srv/detail/pick_and_place__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/dobot_interface/srv/detail/pick_and_place__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/dobot_interface/srv/detail/pick_and_place__type_support_c.s"
 	@echo "... rosidl_typesupport_fastrtps_cpp/dobot_interface/action/detail/dds_fastrtps/pose_ptp__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/dobot_interface/action/detail/dds_fastrtps/pose_ptp__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/dobot_interface/action/detail/dds_fastrtps/pose_ptp__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/dobot_interface/srv/detail/dds_fastrtps/pick_and_place__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/dobot_interface/srv/detail/dds_fastrtps/pick_and_place__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/dobot_interface/srv/detail/dds_fastrtps/pick_and_place__type_support.s"
 	@echo "... rosidl_typesupport_introspection_c/dobot_interface/action/detail/pose_ptp__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/dobot_interface/action/detail/pose_ptp__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/dobot_interface/action/detail/pose_ptp__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/dobot_interface/srv/detail/pick_and_place__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/dobot_interface/srv/detail/pick_and_place__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/dobot_interface/srv/detail/pick_and_place__type_support.s"
 	@echo "... rosidl_typesupport_introspection_cpp/dobot_interface/action/detail/pose_ptp__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/dobot_interface/action/detail/pose_ptp__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/dobot_interface/action/detail/pose_ptp__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/dobot_interface/srv/detail/pick_and_place__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/dobot_interface/srv/detail/pick_and_place__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/dobot_interface/srv/detail/pick_and_place__type_support.s"
 .PHONY : help
 
 

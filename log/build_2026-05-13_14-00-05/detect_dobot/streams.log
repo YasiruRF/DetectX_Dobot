@@ -1,0 +1,71 @@
+[0.878s] Invoking command in '/home/dobot/Documents/DetectX/DetectX_Dobot/src/detect_dobot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages:/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages:/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/detect_dobot build --build-base /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build install --record /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/install.log --single-version-externally-managed install_data
+[1.057s] running egg_info
+[1.058s] creating ../../build/detect_dobot/detect_dobot.egg-info
+[1.073s] writing ../../build/detect_dobot/detect_dobot.egg-info/PKG-INFO
+[1.073s] writing dependency_links to ../../build/detect_dobot/detect_dobot.egg-info/dependency_links.txt
+[1.073s] writing entry points to ../../build/detect_dobot/detect_dobot.egg-info/entry_points.txt
+[1.074s] writing requirements to ../../build/detect_dobot/detect_dobot.egg-info/requires.txt
+[1.074s] writing top-level names to ../../build/detect_dobot/detect_dobot.egg-info/top_level.txt
+[1.074s] writing manifest file '../../build/detect_dobot/detect_dobot.egg-info/SOURCES.txt'
+[1.100s] reading manifest file '../../build/detect_dobot/detect_dobot.egg-info/SOURCES.txt'
+[1.100s] adding license file 'LICENSE'
+[1.101s] writing manifest file '../../build/detect_dobot/detect_dobot.egg-info/SOURCES.txt'
+[1.101s] running build
+[1.101s] running build_py
+[1.101s] creating /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build
+[1.101s] creating /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib
+[1.102s] creating /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot
+[1.102s] copying ./detect_dobot/dobot_client.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot
+[1.102s] copying ./detect_dobot/__init__.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot
+[1.102s] copying ./detect_dobot/cartesian_ptp_node.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot
+[1.103s] copying ./detect_dobot/homing_node.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot
+[1.105s] copying ./detect_dobot/pose_ptp_node.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot
+[1.105s] copying ./detect_dobot/pick_and_place_node.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot
+[1.106s] copying ./detect_dobot/kinematics.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot
+[1.107s] copying ./detect_dobot/vision_node.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot
+[1.108s] copying ./detect_dobot/suction_cup_node.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot
+[1.108s] copying ./detect_dobot/py.typed -> /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot
+[1.109s] running install
+[1.114s] running install_lib
+[1.130s] creating /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot
+[1.130s] copying /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot/dobot_client.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot
+[1.130s] copying /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot/__init__.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot
+[1.130s] copying /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot/cartesian_ptp_node.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot
+[1.130s] copying /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot/homing_node.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot
+[1.130s] copying /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot/pose_ptp_node.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot
+[1.131s] copying /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot/pick_and_place_node.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot
+[1.131s] copying /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot/kinematics.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot
+[1.131s] copying /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot/vision_node.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot
+[1.131s] copying /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot/suction_cup_node.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot
+[1.131s] copying /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot/py.typed -> /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot
+[1.131s] byte-compiling /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot/dobot_client.py to dobot_client.cpython-312.pyc
+[1.132s] byte-compiling /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot/__init__.py to __init__.cpython-312.pyc
+[1.132s] byte-compiling /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot/cartesian_ptp_node.py to cartesian_ptp_node.cpython-312.pyc
+[1.133s] byte-compiling /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot/homing_node.py to homing_node.cpython-312.pyc
+[1.134s] byte-compiling /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot/pose_ptp_node.py to pose_ptp_node.cpython-312.pyc
+[1.135s] byte-compiling /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot/pick_and_place_node.py to pick_and_place_node.cpython-312.pyc
+[1.136s] byte-compiling /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot/kinematics.py to kinematics.cpython-312.pyc
+[1.136s] byte-compiling /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot/vision_node.py to vision_node.cpython-312.pyc
+[1.137s] byte-compiling /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot/suction_cup_node.py to suction_cup_node.cpython-312.pyc
+[1.137s] running install_data
+[1.137s] creating /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/share/ament_index
+[1.137s] creating /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/share/ament_index/resource_index
+[1.137s] creating /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/share/ament_index/resource_index/packages
+[1.138s] copying resource/detect_dobot -> /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/share/ament_index/resource_index/packages
+[1.138s] copying package.xml -> /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/share/detect_dobot
+[1.138s] creating /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/share/detect_dobot/launch
+[1.138s] copying launch/dobot_launch.xml -> /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/share/detect_dobot/launch
+[1.139s] creating /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/share/detect_dobot/resource
+[1.139s] copying resource/dobot_server.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/share/detect_dobot/resource
+[1.140s] copying resource/dobot_driver.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/share/detect_dobot/resource
+[1.140s] running install_egg_info
+[1.154s] Copying ../../build/detect_dobot/detect_dobot.egg-info to /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot-0.0.0-py3.12.egg-info
+[1.155s] running install_scripts
+[1.254s] Installing cartesian_ptp_node script to /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/detect_dobot
+[1.255s] Installing homing_node script to /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/detect_dobot
+[1.255s] Installing pick_and_place_node script to /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/detect_dobot
+[1.255s] Installing pose_ptp_node script to /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/detect_dobot
+[1.255s] Installing suction_cup_node script to /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/detect_dobot
+[1.255s] Installing vision_node script to /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/detect_dobot
+[1.255s] writing list of installed files to '/home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/install.log'
+[1.279s] Invoked command in '/home/dobot/Documents/DetectX/DetectX_Dobot/src/detect_dobot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages:/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages:/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/detect_dobot build --build-base /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build install --record /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/install.log --single-version-externally-managed install_data

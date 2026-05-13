@@ -1,9 +1,10 @@
 {
   "package_name": "dobot_interface",
-  "output_dir": "/mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_typesupport_introspection_cpp/dobot_interface",
+  "output_dir": "/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_typesupport_introspection_cpp/dobot_interface",
   "template_dir": "/opt/ros/kilted/share/rosidl_typesupport_introspection_cpp/resource",
   "idl_tuples": [
-    "/mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_adapter/dobot_interface:action/PosePTP.idl"
+    "/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_adapter/dobot_interface:action/PosePTP.idl",
+    "/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_adapter/dobot_interface:srv/PickAndPlace.idl"
   ],
   "ros_interface_dependencies": [
     "action_msgs:/opt/ros/kilted/share/action_msgs/msg/GoalInfo.idl",
@@ -24,7 +25,8 @@
     "/opt/ros/kilted/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/kilted/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
     "/opt/ros/kilted/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
-    "/mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_adapter/dobot_interface/action/PosePTP.idl",
+    "/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_adapter/dobot_interface/action/PosePTP.idl",
+    "/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_adapter/dobot_interface/srv/PickAndPlace.idl",
     "/opt/ros/kilted/share/action_msgs/msg/GoalInfo.idl",
     "/opt/ros/kilted/share/action_msgs/msg/GoalStatus.idl",
     "/opt/ros/kilted/share/action_msgs/msg/GoalStatusArray.idl",

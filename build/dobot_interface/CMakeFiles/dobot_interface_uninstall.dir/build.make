@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/src/dobot_interface
+CMAKE_SOURCE_DIR = /home/dobot/Documents/DetectX/DetectX_Dobot/src/dobot_interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface
+CMAKE_BINARY_DIR = /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface
 
 # Utility rule file for dobot_interface_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/dobot_interface_uninstall.dir/compiler_depend.make
 include CMakeFiles/dobot_interface_uninstall.dir/progress.make
 
 CMakeFiles/dobot_interface_uninstall:
-	/usr/bin/cmake -P /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 dobot_interface_uninstall: CMakeFiles/dobot_interface_uninstall
 dobot_interface_uninstall: CMakeFiles/dobot_interface_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/dobot_interface_uninstall.dir/clean:
 .PHONY : CMakeFiles/dobot_interface_uninstall.dir/clean
 
 CMakeFiles/dobot_interface_uninstall.dir/depend:
-	cd /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/src/dobot_interface /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/src/dobot_interface /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/CMakeFiles/dobot_interface_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dobot/Documents/DetectX/DetectX_Dobot/src/dobot_interface /home/dobot/Documents/DetectX/DetectX_Dobot/src/dobot_interface /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/CMakeFiles/dobot_interface_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/dobot_interface_uninstall.dir/depend
 

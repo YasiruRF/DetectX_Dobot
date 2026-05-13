@@ -1,2 +1,4 @@
 action/PosePTP.action
 action/PosePTP.idl
+srv/PickAndPlace.idl
+srv/PickAndPlace.srv

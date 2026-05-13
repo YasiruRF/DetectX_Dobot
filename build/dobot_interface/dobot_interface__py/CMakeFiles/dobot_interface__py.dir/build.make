@@ -53,25 +53,28 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/src/dobot_interface
+CMAKE_SOURCE_DIR = /home/dobot/Documents/DetectX/DetectX_Dobot/src/dobot_interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface
+CMAKE_BINARY_DIR = /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface
 
 # Utility rule file for dobot_interface__py.
 
 # Include any custom commands dependencies for this target.
-include /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/compiler_depend.make
+include /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/compiler_depend.make
 
 # Include the progress variables for this target.
-include /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/progress.make
+include /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/progress.make
 
-/mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py: rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_fastrtps_c.c
-/mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py: rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_introspection_c.c
-/mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py: rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_c.c
-/mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py: rosidl_generator_py/dobot_interface/action/_pose_ptp.py
-/mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py: rosidl_generator_py/dobot_interface/action/__init__.py
-/mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py: rosidl_generator_py/dobot_interface/action/_pose_ptp_s.c
+/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py: rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py: rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_introspection_c.c
+/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py: rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_c.c
+/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py: rosidl_generator_py/dobot_interface/action/_pose_ptp.py
+/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py: rosidl_generator_py/dobot_interface/srv/_pick_and_place.py
+/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py: rosidl_generator_py/dobot_interface/action/__init__.py
+/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py: rosidl_generator_py/dobot_interface/srv/__init__.py
+/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py: rosidl_generator_py/dobot_interface/action/_pose_ptp_s.c
+/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py: rosidl_generator_py/dobot_interface/srv/_pick_and_place_s.c
 
 rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/lib/python3.12/site-packages/rosidl_generator_py/__init__.py
@@ -87,6 +90,7 @@ rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_fas
 rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/dobot_interface/action/PosePTP.idl
+rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/dobot_interface/srv/PickAndPlace.idl
 rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/action_msgs/msg/GoalInfo.idl
 rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/action_msgs/msg/GoalStatus.idl
 rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/action_msgs/msg/GoalStatusArray.idl
@@ -95,8 +99,8 @@ rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_fas
 rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/builtin_interfaces/msg/Time.idl
 rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/unique_identifier_msgs/msg/UUID.idl
 rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/service_msgs/msg/ServiceEventInfo.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
-	cd /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/dobot_interface__py && /usr/bin/python3 /opt/ros/kilted/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
+	cd /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/dobot_interface__py && /usr/bin/python3 /opt/ros/kilted/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
 rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_introspection_c.c
@@ -107,31 +111,43 @@ rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_c.c
 rosidl_generator_py/dobot_interface/action/_pose_ptp.py: rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/dobot_interface/action/_pose_ptp.py
 
+rosidl_generator_py/dobot_interface/srv/_pick_and_place.py: rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/dobot_interface/srv/_pick_and_place.py
+
 rosidl_generator_py/dobot_interface/action/__init__.py: rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/dobot_interface/action/__init__.py
+
+rosidl_generator_py/dobot_interface/srv/__init__.py: rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/dobot_interface/srv/__init__.py
 
 rosidl_generator_py/dobot_interface/action/_pose_ptp_s.c: rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/dobot_interface/action/_pose_ptp_s.c
 
-dobot_interface__py: /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py
+rosidl_generator_py/dobot_interface/srv/_pick_and_place_s.c: rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/dobot_interface/srv/_pick_and_place_s.c
+
+dobot_interface__py: /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py
 dobot_interface__py: rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_c.c
 dobot_interface__py: rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 dobot_interface__py: rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_introspection_c.c
 dobot_interface__py: rosidl_generator_py/dobot_interface/action/__init__.py
 dobot_interface__py: rosidl_generator_py/dobot_interface/action/_pose_ptp.py
 dobot_interface__py: rosidl_generator_py/dobot_interface/action/_pose_ptp_s.c
-dobot_interface__py: /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/build.make
+dobot_interface__py: rosidl_generator_py/dobot_interface/srv/__init__.py
+dobot_interface__py: rosidl_generator_py/dobot_interface/srv/_pick_and_place.py
+dobot_interface__py: rosidl_generator_py/dobot_interface/srv/_pick_and_place_s.c
+dobot_interface__py: /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/build.make
 .PHONY : dobot_interface__py
 
 # Rule to build all files generated by this target.
-/mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/build: dobot_interface__py
-.PHONY : /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/build
+/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/build: dobot_interface__py
+.PHONY : /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/build
 
-/mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/clean:
-	cd /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/dobot_interface__py && $(CMAKE_COMMAND) -P CMakeFiles/dobot_interface__py.dir/cmake_clean.cmake
-.PHONY : /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/clean
+/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/clean:
+	cd /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/dobot_interface__py && $(CMAKE_COMMAND) -P CMakeFiles/dobot_interface__py.dir/cmake_clean.cmake
+.PHONY : /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/clean
 
-/mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/depend:
-	cd /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/src/dobot_interface /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/dobot_interface__py /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/dobot_interface__py /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/DependInfo.cmake "--color=$(COLOR)"
-.PHONY : /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/depend
+/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/depend:
+	cd /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dobot/Documents/DetectX/DetectX_Dobot/src/dobot_interface /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/dobot_interface__py /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/dobot_interface__py /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/DependInfo.cmake "--color=$(COLOR)"
+.PHONY : /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/dobot_interface__py/CMakeFiles/dobot_interface__py.dir/depend
 

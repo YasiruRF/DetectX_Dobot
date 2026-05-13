@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/src/dobot_interface
+CMAKE_SOURCE_DIR = /home/dobot/Documents/DetectX/DetectX_Dobot/src/dobot_interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface
+CMAKE_BINARY_DIR = /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface
 
 # Include any dependencies generated for this target.
 include CMakeFiles/dobot_interface__rosidl_generator_c.dir/depend.make
@@ -89,6 +89,7 @@ rosidl_generator_c/dobot_interface/action/pose_ptp.h: /opt/ros/kilted/share/rosi
 rosidl_generator_c/dobot_interface/action/pose_ptp.h: /opt/ros/kilted/share/rosidl_generator_c/resource/srv__type_support.c.em
 rosidl_generator_c/dobot_interface/action/pose_ptp.h: /opt/ros/kilted/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/dobot_interface/action/pose_ptp.h: rosidl_adapter/dobot_interface/action/PosePTP.idl
+rosidl_generator_c/dobot_interface/action/pose_ptp.h: rosidl_adapter/dobot_interface/srv/PickAndPlace.idl
 rosidl_generator_c/dobot_interface/action/pose_ptp.h: /opt/ros/kilted/share/action_msgs/msg/GoalInfo.idl
 rosidl_generator_c/dobot_interface/action/pose_ptp.h: /opt/ros/kilted/share/action_msgs/msg/GoalStatus.idl
 rosidl_generator_c/dobot_interface/action/pose_ptp.h: /opt/ros/kilted/share/action_msgs/msg/GoalStatusArray.idl
@@ -97,8 +98,8 @@ rosidl_generator_c/dobot_interface/action/pose_ptp.h: /opt/ros/kilted/share/buil
 rosidl_generator_c/dobot_interface/action/pose_ptp.h: /opt/ros/kilted/share/builtin_interfaces/msg/Time.idl
 rosidl_generator_c/dobot_interface/action/pose_ptp.h: /opt/ros/kilted/share/unique_identifier_msgs/msg/UUID.idl
 rosidl_generator_c/dobot_interface/action/pose_ptp.h: /opt/ros/kilted/share/service_msgs/msg/ServiceEventInfo.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/kilted/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_generator_c__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/kilted/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_c__arguments.json
 
 rosidl_generator_c/dobot_interface/action/detail/pose_ptp__functions.h: rosidl_generator_c/dobot_interface/action/pose_ptp.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dobot_interface/action/detail/pose_ptp__functions.h
@@ -109,6 +110,18 @@ rosidl_generator_c/dobot_interface/action/detail/pose_ptp__struct.h: rosidl_gene
 rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.h: rosidl_generator_c/dobot_interface/action/pose_ptp.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.h
 
+rosidl_generator_c/dobot_interface/srv/pick_and_place.h: rosidl_generator_c/dobot_interface/action/pose_ptp.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dobot_interface/srv/pick_and_place.h
+
+rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.h: rosidl_generator_c/dobot_interface/action/pose_ptp.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.h
+
+rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__struct.h: rosidl_generator_c/dobot_interface/action/pose_ptp.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__struct.h
+
+rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.h: rosidl_generator_c/dobot_interface/action/pose_ptp.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.h
+
 rosidl_generator_c/dobot_interface/action/detail/pose_ptp__description.c: rosidl_generator_c/dobot_interface/action/pose_ptp.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dobot_interface/action/detail/pose_ptp__description.c
 
@@ -118,53 +131,107 @@ rosidl_generator_c/dobot_interface/action/detail/pose_ptp__functions.c: rosidl_g
 rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.c: rosidl_generator_c/dobot_interface/action/pose_ptp.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.c
 
+rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.c: rosidl_generator_c/dobot_interface/action/pose_ptp.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.c
+
+rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.c: rosidl_generator_c/dobot_interface/action/pose_ptp.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.c
+
+rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.c: rosidl_generator_c/dobot_interface/action/pose_ptp.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.c
+
 CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__description.c.o: CMakeFiles/dobot_interface__rosidl_generator_c.dir/flags.make
 CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__description.c.o: rosidl_generator_c/dobot_interface/action/detail/pose_ptp__description.c
 CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__description.c.o: CMakeFiles/dobot_interface__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__description.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__description.c.o -MF CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__description.c.o.d -o CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__description.c.o -c /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__description.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__description.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__description.c.o -MF CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__description.c.o.d -o CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__description.c.o -c /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__description.c
 
 CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__description.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__description.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__description.c > CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__description.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__description.c > CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__description.c.i
 
 CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__description.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__description.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__description.c -o CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__description.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__description.c -o CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__description.c.s
 
 CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__functions.c.o: CMakeFiles/dobot_interface__rosidl_generator_c.dir/flags.make
 CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__functions.c.o: rosidl_generator_c/dobot_interface/action/detail/pose_ptp__functions.c
 CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__functions.c.o: CMakeFiles/dobot_interface__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__functions.c.o -MF CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__functions.c.o.d -o CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__functions.c.o -c /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__functions.c.o -MF CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__functions.c.o.d -o CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__functions.c.o -c /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__functions.c
 
 CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__functions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__functions.c > CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__functions.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__functions.c > CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__functions.c.i
 
 CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__functions.c -o CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__functions.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__functions.c -o CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__functions.c.s
 
 CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.c.o: CMakeFiles/dobot_interface__rosidl_generator_c.dir/flags.make
 CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.c.o: rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.c
 CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.c.o: CMakeFiles/dobot_interface__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.c.o -MF CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.c.o.d -o CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.c.o -c /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.c.o -MF CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.c.o.d -o CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.c.o -c /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.c
 
 CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.c > CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.c > CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.c.i
 
 CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.c -o CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.c -o CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.c.s
+
+CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.c.o: CMakeFiles/dobot_interface__rosidl_generator_c.dir/flags.make
+CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.c.o: rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.c
+CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.c.o: CMakeFiles/dobot_interface__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.c.o -MF CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.c.o.d -o CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.c.o -c /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.c
+
+CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.c > CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.c.i
+
+CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.c -o CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.c.s
+
+CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.c.o: CMakeFiles/dobot_interface__rosidl_generator_c.dir/flags.make
+CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.c.o: rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.c
+CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.c.o: CMakeFiles/dobot_interface__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.c.o -MF CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.c.o.d -o CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.c.o -c /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.c
+
+CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.c > CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.c.i
+
+CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.c -o CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.c.s
+
+CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.c.o: CMakeFiles/dobot_interface__rosidl_generator_c.dir/flags.make
+CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.c.o: rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.c
+CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.c.o: CMakeFiles/dobot_interface__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.c.o -MF CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.c.o.d -o CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.c.o -c /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.c
+
+CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.c > CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.c.i
+
+CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.c -o CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.c.s
 
 # Object files for target dobot_interface__rosidl_generator_c
 dobot_interface__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__description.c.o" \
 "CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__functions.c.o" \
-"CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.c.o"
+"CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.c.o" \
+"CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.c.o" \
+"CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.c.o" \
+"CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.c.o"
 
 # External object files for target dobot_interface__rosidl_generator_c
 dobot_interface__rosidl_generator_c_EXTERNAL_OBJECTS =
@@ -172,6 +239,9 @@ dobot_interface__rosidl_generator_c_EXTERNAL_OBJECTS =
 libdobot_interface__rosidl_generator_c.so: CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__description.c.o
 libdobot_interface__rosidl_generator_c.so: CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__functions.c.o
 libdobot_interface__rosidl_generator_c.so: CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.c.o
+libdobot_interface__rosidl_generator_c.so: CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.c.o
+libdobot_interface__rosidl_generator_c.so: CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.c.o
+libdobot_interface__rosidl_generator_c.so: CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.c.o
 libdobot_interface__rosidl_generator_c.so: CMakeFiles/dobot_interface__rosidl_generator_c.dir/build.make
 libdobot_interface__rosidl_generator_c.so: /opt/ros/kilted/lib/libaction_msgs__rosidl_generator_c.so
 libdobot_interface__rosidl_generator_c.so: /opt/ros/kilted/lib/libunique_identifier_msgs__rosidl_generator_c.so
@@ -180,7 +250,7 @@ libdobot_interface__rosidl_generator_c.so: /opt/ros/kilted/lib/libbuiltin_interf
 libdobot_interface__rosidl_generator_c.so: /opt/ros/kilted/lib/librosidl_runtime_c.so
 libdobot_interface__rosidl_generator_c.so: /opt/ros/kilted/lib/librcutils.so
 libdobot_interface__rosidl_generator_c.so: CMakeFiles/dobot_interface__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library libdobot_interface__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C shared library libdobot_interface__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dobot_interface__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -198,6 +268,13 @@ CMakeFiles/dobot_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/do
 CMakeFiles/dobot_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.c
 CMakeFiles/dobot_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.h
 CMakeFiles/dobot_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/dobot_interface/action/pose_ptp.h
-	cd /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/src/dobot_interface /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/src/dobot_interface /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/CMakeFiles/dobot_interface__rosidl_generator_c.dir/DependInfo.cmake "--color=$(COLOR)"
+CMakeFiles/dobot_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.c
+CMakeFiles/dobot_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.c
+CMakeFiles/dobot_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.h
+CMakeFiles/dobot_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__struct.h
+CMakeFiles/dobot_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.c
+CMakeFiles/dobot_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.h
+CMakeFiles/dobot_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/dobot_interface/srv/pick_and_place.h
+	cd /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dobot/Documents/DetectX/DetectX_Dobot/src/dobot_interface /home/dobot/Documents/DetectX/DetectX_Dobot/src/dobot_interface /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/CMakeFiles/dobot_interface__rosidl_generator_c.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/dobot_interface__rosidl_generator_c.dir/depend
 

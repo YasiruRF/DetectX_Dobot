@@ -1,0 +1,486 @@
+[0.000000] (-) TimerEvent: {}
+[0.000497] (dobot_interface) JobQueued: {'identifier': 'dobot_interface', 'dependencies': OrderedDict()}
+[0.000556] (detect_dobot) JobQueued: {'identifier': 'detect_dobot', 'dependencies': OrderedDict({'dobot_interface': '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface'})}
+[0.000573] (dobot_interface) JobStarted: {'identifier': 'dobot_interface'}
+[0.014873] (dobot_interface) JobProgress: {'identifier': 'dobot_interface', 'progress': 'cmake'}
+[0.015948] (dobot_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/dobot/Documents/DetectX/DetectX_Dobot/src/dobot_interface', '-DCMAKE_INSTALL_PREFIX=/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface'], 'cwd': '/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dobot', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'HOME': '/home/dobot', 'OLDPWD': '/home/dobot/Documents/DetectX', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '40730', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5cc5cc77f647d22b590daef569f1fbea', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/dobot/Documents/DetectX/DetectX_Dobot/install', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'dobot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dobot', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/kilted/bin:/home/dobot/.local/bin:/home/dobot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mxen3005:@/tmp/.ICE-unix/40730,unix/mxen3005:/tmp/.ICE-unix/40730', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/90906a7c_ee37_492c_999b_0a7bc167a170', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.UEMYO3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.187', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot:/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface:/opt/ros/kilted', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5cc5cc77f647d22b590daef569f1fbea', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages:/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot:/opt/ros/kilted'}), 'shell': False}
+[0.102696] (-) TimerEvent: {}
+[0.194141] (dobot_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.203506] (-) TimerEvent: {}
+[0.303915] (-) TimerEvent: {}
+[0.406020] (-) TimerEvent: {}
+[0.442400] (dobot_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.468315] (dobot_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.512714] (-) TimerEvent: {}
+[0.614193] (-) TimerEvent: {}
+[0.653242] (dobot_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.659593] (dobot_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.660861] (dobot_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.662215] (dobot_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.674525] (dobot_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.723146] (-) TimerEvent: {}
+[0.801453] (dobot_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.802544] (dobot_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.803056] (dobot_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.803158] (dobot_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.819531] (dobot_interface) StdoutLine: {'line': b'-- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)\n'}
+[0.825019] (-) TimerEvent: {}
+[0.948620] (dobot_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.948837] (-) TimerEvent: {}
+[1.051159] (-) TimerEvent: {}
+[1.093600] (dobot_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.7.1 (/opt/ros/kilted/share/rosidl_default_generators/cmake)\n'}
+[1.100495] (dobot_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.151422] (-) TimerEvent: {}
+[1.162278] (dobot_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.203370] (dobot_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.9.6 (/opt/ros/kilted/share/rosidl_adapter/cmake)\n'}
+[1.205963] (dobot_interface) StdoutLine: {'line': b'-- Found action_msgs: 2.3.0 (/opt/ros/kilted/share/action_msgs/cmake)\n'}
+[1.251637] (-) TimerEvent: {}
+[1.358529] (-) TimerEvent: {}
+[1.461041] (-) TimerEvent: {}
+[1.575030] (-) TimerEvent: {}
+[1.769967] (-) TimerEvent: {}
+[1.806006] (dobot_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros_core: 0.14.7 (/opt/ros/kilted/share/ament_cmake_ros_core/cmake)\n'}
+[1.878866] (-) TimerEvent: {}
+[1.979940] (-) TimerEvent: {}
+[2.081420] (-) TimerEvent: {}
+[2.184204] (dobot_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.184482] (-) TimerEvent: {}
+[2.288235] (-) TimerEvent: {}
+[2.390641] (-) TimerEvent: {}
+[2.494660] (-) TimerEvent: {}
+[2.595233] (-) TimerEvent: {}
+[2.694535] (dobot_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.695359] (-) TimerEvent: {}
+[2.795946] (-) TimerEvent: {}
+[2.899231] (-) TimerEvent: {}
+[3.005422] (-) TimerEvent: {}
+[3.120836] (-) TimerEvent: {}
+[3.140258] (dobot_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[3.173813] (dobot_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.19.2 (/opt/ros/kilted/share/ament_lint_auto/cmake)\n'}
+[3.188817] (dobot_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.189512] (dobot_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.193011] (dobot_interface) StdoutLine: {'line': b'-- Configuring done (3.2s)\n'}
+[3.221418] (-) TimerEvent: {}
+[3.242003] (dobot_interface) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.252643] (dobot_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface\n'}
+[3.265230] (dobot_interface) CommandEnded: {'returncode': 0}
+[3.266631] (dobot_interface) JobProgress: {'identifier': 'dobot_interface', 'progress': 'build'}
+[3.266692] (dobot_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface', '--', '-j8', '-l8'], 'cwd': '/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dobot', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'HOME': '/home/dobot', 'OLDPWD': '/home/dobot/Documents/DetectX', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '40730', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5cc5cc77f647d22b590daef569f1fbea', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/dobot/Documents/DetectX/DetectX_Dobot/install', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'dobot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dobot', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/kilted/bin:/home/dobot/.local/bin:/home/dobot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mxen3005:@/tmp/.ICE-unix/40730,unix/mxen3005:/tmp/.ICE-unix/40730', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/90906a7c_ee37_492c_999b_0a7bc167a170', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.UEMYO3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.187', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot:/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface:/opt/ros/kilted', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5cc5cc77f647d22b590daef569f1fbea', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages:/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot:/opt/ros/kilted'}), 'shell': False}
+[3.321781] (-) TimerEvent: {}
+[3.337745] (dobot_interface) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[3.348500] (dobot_interface) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_dobot_interface\n'}
+[3.435586] (-) TimerEvent: {}
+[3.536323] (-) TimerEvent: {}
+[3.543084] (dobot_interface) StdoutLine: {'line': b'[  2%] Built target dobot_interface__rosidl_generator_type_description\n'}
+[3.561831] (dobot_interface) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.571660] (dobot_interface) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.608439] (dobot_interface) StdoutLine: {'line': b'running egg_info\n'}
+[3.608606] (dobot_interface) StdoutLine: {'line': b'creating dobot_interface.egg-info\n'}
+[3.617686] (dobot_interface) StdoutLine: {'line': b'writing dobot_interface.egg-info/PKG-INFO\n'}
+[3.618237] (dobot_interface) StdoutLine: {'line': b'writing dependency_links to dobot_interface.egg-info/dependency_links.txt\n'}
+[3.618523] (dobot_interface) StdoutLine: {'line': b'writing top-level names to dobot_interface.egg-info/top_level.txt\n'}
+[3.618592] (dobot_interface) StdoutLine: {'line': b"writing manifest file 'dobot_interface.egg-info/SOURCES.txt'\n"}
+[3.636683] (-) TimerEvent: {}
+[3.698650] (dobot_interface) StdoutLine: {'line': b"reading manifest file 'dobot_interface.egg-info/SOURCES.txt'\n"}
+[3.698807] (dobot_interface) StdoutLine: {'line': b"writing manifest file 'dobot_interface.egg-info/SOURCES.txt'\n"}
+[3.737743] (-) TimerEvent: {}
+[3.813372] (dobot_interface) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_dobot_interface_egg\n'}
+[3.838405] (-) TimerEvent: {}
+[3.939626] (-) TimerEvent: {}
+[4.046216] (-) TimerEvent: {}
+[4.147340] (-) TimerEvent: {}
+[4.184978] (dobot_interface) StdoutLine: {'line': b'[  6%] Built target dobot_interface__cpp\n'}
+[4.236666] (dobot_interface) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__type_support.c.o\x1b[0m\n'}
+[4.237428] (dobot_interface) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__functions.c.o\x1b[0m\n'}
+[4.237514] (dobot_interface) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.c.o\x1b[0m\n'}
+[4.237551] (dobot_interface) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__functions.c.o\x1b[0m\n'}
+[4.237677] (dobot_interface) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__description.c.o\x1b[0m\n'}
+[4.237717] (dobot_interface) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/dobot_interface__rosidl_generator_c.dir/rosidl_generator_c/dobot_interface/srv/detail/pick_and_place__description.c.o\x1b[0m\n'}
+[4.248073] (-) TimerEvent: {}
+[4.350854] (-) TimerEvent: {}
+[4.441104] (dobot_interface) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libdobot_interface__rosidl_generator_c.so\x1b[0m\n'}
+[4.451435] (-) TimerEvent: {}
+[4.496673] (dobot_interface) StdoutLine: {'line': b'[ 22%] Built target dobot_interface__rosidl_generator_c\n'}
+[4.510083] (dobot_interface) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.510429] (dobot_interface) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.510479] (dobot_interface) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.511070] (dobot_interface) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.511377] (dobot_interface) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.521111] (dobot_interface) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.562345] (-) TimerEvent: {}
+[4.663416] (-) TimerEvent: {}
+[4.791536] (-) TimerEvent: {}
+[4.809787] (dobot_interface) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/dobot_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/dobot_interface/srv/pick_and_place__type_support.cpp.o\x1b[0m\n'}
+[4.811136] (dobot_interface) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/dobot_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/dobot_interface/action/pose_ptp__type_support.cpp.o\x1b[0m\n'}
+[4.865565] (dobot_interface) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/dobot_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dobot_interface/srv/pick_and_place__type_support.cpp.o\x1b[0m\n'}
+[4.865767] (dobot_interface) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/dobot_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dobot_interface/action/pose_ptp__type_support.cpp.o\x1b[0m\n'}
+[4.891660] (-) TimerEvent: {}
+[4.920137] (dobot_interface) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library libdobot_interface__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.959453] (dobot_interface) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/dobot_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dobot_interface/srv/detail/pick_and_place__type_support.c.o\x1b[0m\n'}
+[4.959792] (dobot_interface) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/dobot_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dobot_interface/action/detail/pose_ptp__type_support.c.o\x1b[0m\n'}
+[4.968788] (dobot_interface) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/dobot_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dobot_interface/action/detail/pose_ptp__type_support.cpp.o\x1b[0m\n'}
+[4.995191] (-) TimerEvent: {}
+[5.016782] (dobot_interface) StdoutLine: {'line': b'[ 54%] Built target dobot_interface__rosidl_typesupport_c\n'}
+[5.037944] (dobot_interface) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/dobot_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dobot_interface/srv/detail/pick_and_place__type_support.cpp.o\x1b[0m\n'}
+[5.053768] (dobot_interface) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking C shared library libdobot_interface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.057836] (dobot_interface) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/dobot_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dobot_interface/action/detail/dds_fastrtps/pose_ptp__type_support.cpp.o\x1b[0m\n'}
+[5.074230] (dobot_interface) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/dobot_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dobot_interface/srv/detail/dds_fastrtps/pick_and_place__type_support.cpp.o\x1b[0m\n'}
+[5.091777] (dobot_interface) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/dobot_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dobot_interface/action/detail/pose_ptp__type_support_c.cpp.o\x1b[0m\n'}
+[5.095480] (-) TimerEvent: {}
+[5.144447] (dobot_interface) StdoutLine: {'line': b'[ 65%] Built target dobot_interface__rosidl_typesupport_introspection_c\n'}
+[5.189598] (dobot_interface) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/dobot_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dobot_interface/srv/detail/pick_and_place__type_support_c.cpp.o\x1b[0m\n'}
+[5.196234] (-) TimerEvent: {}
+[5.298880] (-) TimerEvent: {}
+[5.409392] (-) TimerEvent: {}
+[5.514311] (-) TimerEvent: {}
+[5.622199] (-) TimerEvent: {}
+[5.724741] (-) TimerEvent: {}
+[5.827757] (-) TimerEvent: {}
+[5.929502] (-) TimerEvent: {}
+[6.042559] (-) TimerEvent: {}
+[6.146196] (-) TimerEvent: {}
+[6.248986] (-) TimerEvent: {}
+[6.350533] (-) TimerEvent: {}
+[6.453195] (-) TimerEvent: {}
+[6.553908] (-) TimerEvent: {}
+[6.661210] (-) TimerEvent: {}
+[6.763723] (-) TimerEvent: {}
+[6.865734] (-) TimerEvent: {}
+[6.969292] (-) TimerEvent: {}
+[7.070924] (-) TimerEvent: {}
+[7.172074] (-) TimerEvent: {}
+[7.272566] (-) TimerEvent: {}
+[7.373277] (-) TimerEvent: {}
+[7.480956] (-) TimerEvent: {}
+[7.588440] (-) TimerEvent: {}
+[7.689597] (-) TimerEvent: {}
+[7.800842] (-) TimerEvent: {}
+[7.901324] (-) TimerEvent: {}
+[8.003448] (-) TimerEvent: {}
+[8.106302] (-) TimerEvent: {}
+[8.214638] (-) TimerEvent: {}
+[8.320473] (-) TimerEvent: {}
+[8.422191] (-) TimerEvent: {}
+[8.529628] (-) TimerEvent: {}
+[8.631816] (-) TimerEvent: {}
+[8.732656] (-) TimerEvent: {}
+[8.834055] (-) TimerEvent: {}
+[8.935937] (-) TimerEvent: {}
+[9.046564] (-) TimerEvent: {}
+[9.123681] (dobot_interface) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libdobot_interface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.149270] (-) TimerEvent: {}
+[9.152713] (dobot_interface) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libdobot_interface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.185979] (dobot_interface) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libdobot_interface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.251297] (-) TimerEvent: {}
+[9.300657] (dobot_interface) StdoutLine: {'line': b'[ 75%] Built target dobot_interface__rosidl_typesupport_fastrtps_c\n'}
+[9.342114] (dobot_interface) StdoutLine: {'line': b'[ 75%] Built target dobot_interface__rosidl_typesupport_introspection_cpp\n'}
+[9.352005] (-) TimerEvent: {}
+[9.413524] (dobot_interface) StdoutLine: {'line': b'[ 75%] Built target dobot_interface__rosidl_typesupport_cpp\n'}
+[9.452429] (-) TimerEvent: {}
+[9.554979] (-) TimerEvent: {}
+[9.660189] (-) TimerEvent: {}
+[9.757817] (dobot_interface) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libdobot_interface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.760812] (-) TimerEvent: {}
+[9.833419] (dobot_interface) StdoutLine: {'line': b'[ 77%] Built target dobot_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[9.856160] (dobot_interface) StdoutLine: {'line': b'[ 77%] Built target dobot_interface\n'}
+[9.863138] (-) TimerEvent: {}
+[9.881012] (dobot_interface) StdoutLine: {'line': b'[ 79%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[9.965132] (-) TimerEvent: {}
+[10.125962] (-) TimerEvent: {}
+[10.269791] (-) TimerEvent: {}
+[10.373202] (-) TimerEvent: {}
+[10.429989] (dobot_interface) StdoutLine: {'line': b'[ 79%] Built target dobot_interface__py\n'}
+[10.463279] (dobot_interface) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/dobot_interface__rosidl_generator_py.dir/rosidl_generator_py/dobot_interface/action/_pose_ptp_s.c.o\x1b[0m\n'}
+[10.463764] (dobot_interface) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/dobot_interface__rosidl_generator_py.dir/rosidl_generator_py/dobot_interface/srv/_pick_and_place_s.c.o\x1b[0m\n'}
+[10.473777] (-) TimerEvent: {}
+[10.574520] (-) TimerEvent: {}
+[10.675512] (-) TimerEvent: {}
+[10.777349] (-) TimerEvent: {}
+[10.844618] (dobot_interface) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking C shared library libdobot_interface__rosidl_generator_py.so\x1b[0m\n'}
+[10.877991] (-) TimerEvent: {}
+[10.919462] (dobot_interface) StdoutLine: {'line': b'[ 86%] Built target dobot_interface__rosidl_generator_py\n'}
+[10.968122] (dobot_interface) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/dobot_interface_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[10.973331] (dobot_interface) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/dobot_interface_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[10.978150] (-) TimerEvent: {}
+[10.981032] (dobot_interface) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/dobot_interface_s__rosidl_typesupport_c.dir/rosidl_generator_py/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[11.078487] (-) TimerEvent: {}
+[11.097910] (dobot_interface) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/dobot_interface/dobot_interface_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[11.140448] (dobot_interface) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/dobot_interface/dobot_interface_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[11.144292] (dobot_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/dobot_interface/dobot_interface_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[11.148493] (dobot_interface) StdoutLine: {'line': b'[100%] Built target dobot_interface_s__rosidl_typesupport_introspection_c\n'}
+[11.180059] (-) TimerEvent: {}
+[11.183421] (dobot_interface) StdoutLine: {'line': b'[100%] Built target dobot_interface_s__rosidl_typesupport_c\n'}
+[11.229580] (dobot_interface) StdoutLine: {'line': b'[100%] Built target dobot_interface_s__rosidl_typesupport_fastrtps_c\n'}
+[11.260339] (dobot_interface) CommandEnded: {'returncode': 0}
+[11.261287] (dobot_interface) JobProgress: {'identifier': 'dobot_interface', 'progress': 'install'}
+[11.275533] (dobot_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface'], 'cwd': '/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dobot', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'HOME': '/home/dobot', 'OLDPWD': '/home/dobot/Documents/DetectX', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '40730', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5cc5cc77f647d22b590daef569f1fbea', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/dobot/Documents/DetectX/DetectX_Dobot/install', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'dobot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dobot', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/kilted/bin:/home/dobot/.local/bin:/home/dobot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mxen3005:@/tmp/.ICE-unix/40730,unix/mxen3005:/tmp/.ICE-unix/40730', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/90906a7c_ee37_492c_999b_0a7bc167a170', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.UEMYO3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.187', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot:/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface:/opt/ros/kilted', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5cc5cc77f647d22b590daef569f1fbea', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages:/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot:/opt/ros/kilted'}), 'shell': False}
+[11.281097] (-) TimerEvent: {}
+[11.297069] (dobot_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.297598] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/ament_index/resource_index/rosidl_interfaces/dobot_interface\n'}
+[11.298178] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/action/PosePTP.json\n'}
+[11.298551] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/srv/PickAndPlace.json\n'}
+[11.299255] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface\n'}
+[11.299377] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action\n'}
+[11.299416] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/pose_ptp.h\n'}
+[11.299637] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail\n'}
+[11.299737] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/pose_ptp__type_support.c\n'}
+[11.299775] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/pose_ptp__type_support.h\n'}
+[11.299949] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/pose_ptp__functions.c\n'}
+[11.300174] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/pose_ptp__functions.h\n'}
+[11.300291] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/pose_ptp__struct.h\n'}
+[11.300921] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/pose_ptp__description.c\n'}
+[11.301282] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv\n'}
+[11.301449] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail\n'}
+[11.301544] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail/pick_and_place__functions.h\n'}
+[11.301659] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail/pick_and_place__functions.c\n'}
+[11.301746] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail/pick_and_place__type_support.c\n'}
+[11.301850] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail/pick_and_place__description.c\n'}
+[11.302225] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail/pick_and_place__type_support.h\n'}
+[11.302310] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail/pick_and_place__struct.h\n'}
+[11.302363] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/pick_and_place.h\n'}
+[11.302399] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/msg\n'}
+[11.302431] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.302464] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/environment/library_path.sh\n'}
+[11.302639] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/environment/library_path.dsv\n'}
+[11.303472] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/libdobot_interface__rosidl_generator_c.so\n'}
+[11.303713] (dobot_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/libdobot_interface__rosidl_generator_c.so" to ""\n'}
+[11.303777] (dobot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface\n'}
+[11.303812] (dobot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action\n'}
+[11.303847] (dobot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail\n'}
+[11.304057] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/pose_ptp__rosidl_typesupport_fastrtps_c.h\n'}
+[11.304096] (dobot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv\n'}
+[11.304189] (dobot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail\n'}
+[11.304244] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail/pick_and_place__rosidl_typesupport_fastrtps_c.h\n'}
+[11.304328] (dobot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/msg\n'}
+[11.304372] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.304748] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/libdobot_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[11.305152] (dobot_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/libdobot_interface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.305225] (dobot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface\n'}
+[11.305262] (dobot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action\n'}
+[11.305299] (dobot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail\n'}
+[11.305332] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/pose_ptp__rosidl_typesupport_introspection_c.h\n'}
+[11.305537] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/pose_ptp__type_support.c\n'}
+[11.305608] (dobot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv\n'}
+[11.305646] (dobot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail\n'}
+[11.305679] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail/pick_and_place__type_support.c\n'}
+[11.305712] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail/pick_and_place__rosidl_typesupport_introspection_c.h\n'}
+[11.305750] (dobot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/msg\n'}
+[11.305783] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.308282] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/libdobot_interface__rosidl_typesupport_introspection_c.so\n'}
+[11.308395] (dobot_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/libdobot_interface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.308439] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/libdobot_interface__rosidl_typesupport_c.so\n'}
+[11.308483] (dobot_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/libdobot_interface__rosidl_typesupport_c.so" to ""\n'}
+[11.308520] (dobot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface\n'}
+[11.308554] (dobot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action\n'}
+[11.308587] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/pose_ptp.hpp\n'}
+[11.309208] (dobot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail\n'}
+[11.309281] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/pose_ptp__struct.hpp\n'}
+[11.309320] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/pose_ptp__builder.hpp\n'}
+[11.309509] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/pose_ptp__traits.hpp\n'}
+[11.309565] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/pose_ptp__type_support.hpp\n'}
+[11.309604] (dobot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv\n'}
+[11.309641] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/pick_and_place.hpp\n'}
+[11.309685] (dobot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail\n'}
+[11.311064] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail/pick_and_place__type_support.hpp\n'}
+[11.311114] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail/pick_and_place__builder.hpp\n'}
+[11.311150] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail/pick_and_place__struct.hpp\n'}
+[11.311186] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail/pick_and_place__traits.hpp\n'}
+[11.311424] (dobot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/msg\n'}
+[11.311475] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[11.311513] (dobot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface\n'}
+[11.311548] (dobot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action\n'}
+[11.311580] (dobot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail\n'}
+[11.311613] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/pose_ptp__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.311646] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/dds_fastrtps\n'}
+[11.311690] (dobot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv\n'}
+[11.311722] (dobot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail\n'}
+[11.311755] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail/pick_and_place__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.311790] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail/dds_fastrtps\n'}
+[11.311821] (dobot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/msg\n'}
+[11.311854] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.311888] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/libdobot_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.311922] (dobot_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/libdobot_interface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[11.311954] (dobot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface\n'}
+[11.311986] (dobot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action\n'}
+[11.312020] (dobot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail\n'}
+[11.312052] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/pose_ptp__type_support.cpp\n'}
+[11.312462] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/action/detail/pose_ptp__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.312597] (dobot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv\n'}
+[11.312655] (dobot_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail\n'}
+[11.312691] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail/pick_and_place__type_support.cpp\n'}
+[11.312726] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/include/dobot_interface/dobot_interface/srv/detail/pick_and_place__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.312760] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/libdobot_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[11.312792] (dobot_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/libdobot_interface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[11.312825] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/libdobot_interface__rosidl_typesupport_cpp.so\n'}
+[11.312858] (dobot_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/libdobot_interface__rosidl_typesupport_cpp.so" to ""\n'}
+[11.312890] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/environment/pythonpath.sh\n'}
+[11.312925] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/environment/pythonpath.dsv\n'}
+[11.312957] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface-0.0.0-py3.12.egg-info\n'}
+[11.312988] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[11.313020] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[11.313301] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[11.314662] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[11.314976] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface\n'}
+[11.315075] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/action\n'}
+[11.315117] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/action/__init__.py\n'}
+[11.315152] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/action/_pose_ptp_s.c\n'}
+[11.315332] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/action/_pose_ptp.py\n'}
+[11.315375] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/__init__.py\n'}
+[11.315413] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/dobot_interface_s__rosidl_typesupport_c.so\n'}
+[11.315583] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/srv\n'}
+[11.315706] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/srv/_pick_and_place.py\n'}
+[11.315764] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/srv/__init__.py\n'}
+[11.315801] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/srv/_pick_and_place_s.c\n'}
+[11.315837] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/dobot_interface_s__rosidl_typesupport_introspection_c.so\n'}
+[11.315890] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[11.316260] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[11.316361] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/dobot_interface_s__rosidl_typesupport_fastrtps_c.so\n'}
+[11.316404] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/_dobot_interface_s.ep.rosidl_typesupport_c.c\n'}
+[11.364551] (dobot_interface) StdoutLine: {'line': b"Listing '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface'...\n"}
+[11.364725] (dobot_interface) StdoutLine: {'line': b"Compiling '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/__init__.py'...\n"}
+[11.364773] (dobot_interface) StdoutLine: {'line': b"Listing '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/action'...\n"}
+[11.364807] (dobot_interface) StdoutLine: {'line': b"Compiling '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/action/__init__.py'...\n"}
+[11.364839] (dobot_interface) StdoutLine: {'line': b"Compiling '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/action/_pose_ptp.py'...\n"}
+[11.364871] (dobot_interface) StdoutLine: {'line': b"Listing '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/srv'...\n"}
+[11.364902] (dobot_interface) StdoutLine: {'line': b"Compiling '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/srv/__init__.py'...\n"}
+[11.364933] (dobot_interface) StdoutLine: {'line': b"Compiling '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/srv/_pick_and_place.py'...\n"}
+[11.370341] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/dobot_interface_s__rosidl_typesupport_fastrtps_c.so\n'}
+[11.370633] (dobot_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/dobot_interface_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.370704] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/dobot_interface_s__rosidl_typesupport_introspection_c.so\n'}
+[11.370932] (dobot_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/dobot_interface_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.371217] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/dobot_interface_s__rosidl_typesupport_c.so\n'}
+[11.371857] (dobot_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages/dobot_interface/dobot_interface_s__rosidl_typesupport_c.so" to ""\n'}
+[11.372001] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/libdobot_interface__rosidl_generator_py.so\n'}
+[11.372092] (dobot_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/libdobot_interface__rosidl_generator_py.so" to ""\n'}
+[11.372204] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/action/PosePTP.idl\n'}
+[11.372633] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/srv/PickAndPlace.idl\n'}
+[11.372701] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/action/PosePTP.action\n'}
+[11.372738] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/srv/PickAndPlace.srv\n'}
+[11.372772] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/ament_index/resource_index/package_run_dependencies/dobot_interface\n'}
+[11.372810] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/ament_index/resource_index/parent_prefix_path/dobot_interface\n'}
+[11.372842] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/environment/ament_prefix_path.sh\n'}
+[11.373566] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/environment/ament_prefix_path.dsv\n'}
+[11.373781] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/environment/path.sh\n'}
+[11.374369] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/environment/path.dsv\n'}
+[11.374473] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/local_setup.bash\n'}
+[11.374719] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/local_setup.sh\n'}
+[11.374779] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/local_setup.zsh\n'}
+[11.374812] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/local_setup.dsv\n'}
+[11.374843] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/package.dsv\n'}
+[11.375455] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/ament_index/resource_index/packages/dobot_interface\n'}
+[11.375579] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/export_dobot_interface__rosidl_generator_cExport.cmake\n'}
+[11.375931] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/export_dobot_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.376041] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/export_dobot_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.376132] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/export_dobot_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[11.376382] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/dobot_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.376506] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/dobot_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.376659] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/dobot_interface__rosidl_typesupport_cExport.cmake\n'}
+[11.376776] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/dobot_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.376876] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/export_dobot_interface__rosidl_generator_cppExport.cmake\n'}
+[11.377160] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/export_dobot_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.377448] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/export_dobot_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[11.377651] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/dobot_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.377754] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/dobot_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.377879] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/dobot_interface__rosidl_typesupport_cppExport.cmake\n'}
+[11.377976] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/dobot_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.378256] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/export_dobot_interface__rosidl_generator_pyExport.cmake\n'}
+[11.378371] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/export_dobot_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[11.378413] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[11.378449] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.378483] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.378515] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.378547] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.378579] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.378611] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.378643] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/dobot_interfaceConfig.cmake\n'}
+[11.378681] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/cmake/dobot_interfaceConfig-version.cmake\n'}
+[11.378714] (dobot_interface) StdoutLine: {'line': b'-- Installing: /home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/share/dobot_interface/package.xml\n'}
+[11.381265] (dobot_interface) CommandEnded: {'returncode': 0}
+[11.381616] (-) TimerEvent: {}
+[11.426046] (dobot_interface) JobEnded: {'identifier': 'dobot_interface', 'rc': 0}
+[11.426433] (detect_dobot) JobStarted: {'identifier': 'detect_dobot'}
+[11.481944] (-) TimerEvent: {}
+[11.584236] (-) TimerEvent: {}
+[11.687724] (-) TimerEvent: {}
+[11.790179] (-) TimerEvent: {}
+[11.896065] (-) TimerEvent: {}
+[11.997636] (-) TimerEvent: {}
+[12.102280] (-) TimerEvent: {}
+[12.235974] (-) TimerEvent: {}
+[12.303432] (detect_dobot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/detect_dobot', 'build', '--build-base', '/home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build', 'install', '--record', '/home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dobot/Documents/DetectX/DetectX_Dobot/src/detect_dobot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dobot', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'HOME': '/home/dobot', 'OLDPWD': '/home/dobot/Documents/DetectX', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '40730', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5cc5cc77f647d22b590daef569f1fbea', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/dobot/Documents/DetectX/DetectX_Dobot/install', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'dobot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dobot', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/kilted/bin:/home/dobot/.local/bin:/home/dobot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mxen3005:@/tmp/.ICE-unix/40730,unix/mxen3005:/tmp/.ICE-unix/40730', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/90906a7c_ee37_492c_999b_0a7bc167a170', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.UEMYO3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.187', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot:/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface:/opt/ros/kilted', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5cc5cc77f647d22b590daef569f1fbea', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages:/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface/lib/python3.12/site-packages:/home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_cmake_vendor'}, 'shell': False}
+[12.361189] (-) TimerEvent: {}
+[12.483234] (detect_dobot) StdoutLine: {'line': b'running egg_info\n'}
+[12.483689] (-) TimerEvent: {}
+[12.483850] (detect_dobot) StdoutLine: {'line': b'creating ../../build/detect_dobot/detect_dobot.egg-info\n'}
+[12.499405] (detect_dobot) StdoutLine: {'line': b'writing ../../build/detect_dobot/detect_dobot.egg-info/PKG-INFO\n'}
+[12.499668] (detect_dobot) StdoutLine: {'line': b'writing dependency_links to ../../build/detect_dobot/detect_dobot.egg-info/dependency_links.txt\n'}
+[12.499800] (detect_dobot) StdoutLine: {'line': b'writing entry points to ../../build/detect_dobot/detect_dobot.egg-info/entry_points.txt\n'}
+[12.499916] (detect_dobot) StdoutLine: {'line': b'writing requirements to ../../build/detect_dobot/detect_dobot.egg-info/requires.txt\n'}
+[12.499999] (detect_dobot) StdoutLine: {'line': b'writing top-level names to ../../build/detect_dobot/detect_dobot.egg-info/top_level.txt\n'}
+[12.500109] (detect_dobot) StdoutLine: {'line': b"writing manifest file '../../build/detect_dobot/detect_dobot.egg-info/SOURCES.txt'\n"}
+[12.526177] (detect_dobot) StdoutLine: {'line': b"reading manifest file '../../build/detect_dobot/detect_dobot.egg-info/SOURCES.txt'\n"}
+[12.526473] (detect_dobot) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[12.527062] (detect_dobot) StdoutLine: {'line': b"writing manifest file '../../build/detect_dobot/detect_dobot.egg-info/SOURCES.txt'\n"}
+[12.527454] (detect_dobot) StdoutLine: {'line': b'running build\n'}
+[12.527567] (detect_dobot) StdoutLine: {'line': b'running build_py\n'}
+[12.527718] (detect_dobot) StdoutLine: {'line': b'creating /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build\n'}
+[12.527828] (detect_dobot) StdoutLine: {'line': b'creating /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib\n'}
+[12.527949] (detect_dobot) StdoutLine: {'line': b'creating /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot\n'}
+[12.528064] (detect_dobot) StdoutLine: {'line': b'copying ./detect_dobot/dobot_client.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot\n'}
+[12.528180] (detect_dobot) StdoutLine: {'line': b'copying ./detect_dobot/__init__.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot\n'}
+[12.528291] (detect_dobot) StdoutLine: {'line': b'copying ./detect_dobot/cartesian_ptp_node.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot\n'}
+[12.529277] (detect_dobot) StdoutLine: {'line': b'copying ./detect_dobot/homing_node.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot\n'}
+[12.530960] (detect_dobot) StdoutLine: {'line': b'copying ./detect_dobot/pose_ptp_node.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot\n'}
+[12.531721] (detect_dobot) StdoutLine: {'line': b'copying ./detect_dobot/pick_and_place_node.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot\n'}
+[12.532653] (detect_dobot) StdoutLine: {'line': b'copying ./detect_dobot/kinematics.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot\n'}
+[12.532946] (detect_dobot) StdoutLine: {'line': b'copying ./detect_dobot/vision_node.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot\n'}
+[12.534018] (detect_dobot) StdoutLine: {'line': b'copying ./detect_dobot/suction_cup_node.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot\n'}
+[12.534705] (detect_dobot) StdoutLine: {'line': b'copying ./detect_dobot/py.typed -> /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot\n'}
+[12.535131] (detect_dobot) StdoutLine: {'line': b'running install\n'}
+[12.540463] (detect_dobot) StdoutLine: {'line': b'running install_lib\n'}
+[12.555914] (detect_dobot) StdoutLine: {'line': b'creating /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot\n'}
+[12.556160] (detect_dobot) StdoutLine: {'line': b'copying /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot/dobot_client.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot\n'}
+[12.556259] (detect_dobot) StdoutLine: {'line': b'copying /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot/__init__.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot\n'}
+[12.556312] (detect_dobot) StdoutLine: {'line': b'copying /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot/cartesian_ptp_node.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot\n'}
+[12.556541] (detect_dobot) StdoutLine: {'line': b'copying /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot/homing_node.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot\n'}
+[12.556761] (detect_dobot) StdoutLine: {'line': b'copying /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot/pose_ptp_node.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot\n'}
+[12.556819] (detect_dobot) StdoutLine: {'line': b'copying /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot/pick_and_place_node.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot\n'}
+[12.557007] (detect_dobot) StdoutLine: {'line': b'copying /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot/kinematics.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot\n'}
+[12.557047] (detect_dobot) StdoutLine: {'line': b'copying /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot/vision_node.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot\n'}
+[12.557090] (detect_dobot) StdoutLine: {'line': b'copying /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot/suction_cup_node.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot\n'}
+[12.557123] (detect_dobot) StdoutLine: {'line': b'copying /home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/build/lib/detect_dobot/py.typed -> /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot\n'}
+[12.557289] (detect_dobot) StdoutLine: {'line': b'byte-compiling /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot/dobot_client.py to dobot_client.cpython-312.pyc\n'}
+[12.558405] (detect_dobot) StdoutLine: {'line': b'byte-compiling /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot/__init__.py to __init__.cpython-312.pyc\n'}
+[12.558584] (detect_dobot) StdoutLine: {'line': b'byte-compiling /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot/cartesian_ptp_node.py to cartesian_ptp_node.cpython-312.pyc\n'}
+[12.559710] (detect_dobot) StdoutLine: {'line': b'byte-compiling /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot/homing_node.py to homing_node.cpython-312.pyc\n'}
+[12.560338] (detect_dobot) StdoutLine: {'line': b'byte-compiling /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot/pose_ptp_node.py to pose_ptp_node.cpython-312.pyc\n'}
+[12.560924] (detect_dobot) StdoutLine: {'line': b'byte-compiling /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot/pick_and_place_node.py to pick_and_place_node.cpython-312.pyc\n'}
+[12.562056] (detect_dobot) StdoutLine: {'line': b'byte-compiling /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot/kinematics.py to kinematics.cpython-312.pyc\n'}
+[12.562437] (detect_dobot) StdoutLine: {'line': b'byte-compiling /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot/vision_node.py to vision_node.cpython-312.pyc\n'}
+[12.563116] (detect_dobot) StdoutLine: {'line': b'byte-compiling /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot/suction_cup_node.py to suction_cup_node.cpython-312.pyc\n'}
+[12.563472] (detect_dobot) StdoutLine: {'line': b'running install_data\n'}
+[12.563589] (detect_dobot) StdoutLine: {'line': b'creating /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/share/ament_index\n'}
+[12.563631] (detect_dobot) StdoutLine: {'line': b'creating /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/share/ament_index/resource_index\n'}
+[12.563825] (detect_dobot) StdoutLine: {'line': b'creating /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/share/ament_index/resource_index/packages\n'}
+[12.563865] (detect_dobot) StdoutLine: {'line': b'copying resource/detect_dobot -> /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/share/ament_index/resource_index/packages\n'}
+[12.564111] (detect_dobot) StdoutLine: {'line': b'copying package.xml -> /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/share/detect_dobot\n'}
+[12.564353] (detect_dobot) StdoutLine: {'line': b'creating /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/share/detect_dobot/launch\n'}
+[12.564398] (detect_dobot) StdoutLine: {'line': b'copying launch/dobot_launch.xml -> /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/share/detect_dobot/launch\n'}
+[12.565635] (detect_dobot) StdoutLine: {'line': b'creating /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/share/detect_dobot/resource\n'}
+[12.565724] (detect_dobot) StdoutLine: {'line': b'copying resource/dobot_server.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/share/detect_dobot/resource\n'}
+[12.565835] (detect_dobot) StdoutLine: {'line': b'copying resource/dobot_driver.py -> /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/share/detect_dobot/resource\n'}
+[12.565962] (detect_dobot) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.580253] (detect_dobot) StdoutLine: {'line': b'Copying ../../build/detect_dobot/detect_dobot.egg-info to /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/python3.12/site-packages/detect_dobot-0.0.0-py3.12.egg-info\n'}
+[12.581103] (detect_dobot) StdoutLine: {'line': b'running install_scripts\n'}
+[12.584230] (-) TimerEvent: {}
+[12.680017] (detect_dobot) StdoutLine: {'line': b'Installing cartesian_ptp_node script to /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/detect_dobot\n'}
+[12.681083] (detect_dobot) StdoutLine: {'line': b'Installing homing_node script to /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/detect_dobot\n'}
+[12.681229] (detect_dobot) StdoutLine: {'line': b'Installing pick_and_place_node script to /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/detect_dobot\n'}
+[12.681319] (detect_dobot) StdoutLine: {'line': b'Installing pose_ptp_node script to /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/detect_dobot\n'}
+[12.681396] (detect_dobot) StdoutLine: {'line': b'Installing suction_cup_node script to /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/detect_dobot\n'}
+[12.681497] (detect_dobot) StdoutLine: {'line': b'Installing vision_node script to /home/dobot/Documents/DetectX/DetectX_Dobot/install/detect_dobot/lib/detect_dobot\n'}
+[12.681605] (detect_dobot) StdoutLine: {'line': b"writing list of installed files to '/home/dobot/Documents/DetectX/DetectX_Dobot/build/detect_dobot/install.log'\n"}
+[12.684444] (-) TimerEvent: {}
+[12.705283] (detect_dobot) CommandEnded: {'returncode': 0}
+[12.712406] (detect_dobot) JobEnded: {'identifier': 'detect_dobot', 'rc': 0}
+[12.712987] (-) EventReactorShutdown: {}

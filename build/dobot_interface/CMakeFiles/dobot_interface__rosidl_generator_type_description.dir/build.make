@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/src/dobot_interface
+CMAKE_SOURCE_DIR = /home/dobot/Documents/DetectX/DetectX_Dobot/src/dobot_interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface
+CMAKE_BINARY_DIR = /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface
 
 # Utility rule file for dobot_interface__rosidl_generator_type_description.
 
@@ -67,15 +67,21 @@ include CMakeFiles/dobot_interface__rosidl_generator_type_description.dir/compil
 include CMakeFiles/dobot_interface__rosidl_generator_type_description.dir/progress.make
 
 CMakeFiles/dobot_interface__rosidl_generator_type_description: rosidl_generator_type_description/dobot_interface/action/PosePTP.json
+CMakeFiles/dobot_interface__rosidl_generator_type_description: rosidl_generator_type_description/dobot_interface/srv/PickAndPlace.json
 
 rosidl_generator_type_description/dobot_interface/action/PosePTP.json: /opt/ros/kilted/lib/rosidl_generator_type_description/rosidl_generator_type_description
 rosidl_generator_type_description/dobot_interface/action/PosePTP.json: /opt/ros/kilted/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py
 rosidl_generator_type_description/dobot_interface/action/PosePTP.json: rosidl_adapter/dobot_interface/action/PosePTP.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
-	/usr/bin/python3 /opt/ros/kilted/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_generator_type_description__arguments.json
+rosidl_generator_type_description/dobot_interface/action/PosePTP.json: rosidl_adapter/dobot_interface/srv/PickAndPlace.idl
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
+	/usr/bin/python3 /opt/ros/kilted/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_type_description__arguments.json
+
+rosidl_generator_type_description/dobot_interface/srv/PickAndPlace.json: rosidl_generator_type_description/dobot_interface/action/PosePTP.json
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/dobot_interface/srv/PickAndPlace.json
 
 dobot_interface__rosidl_generator_type_description: CMakeFiles/dobot_interface__rosidl_generator_type_description
 dobot_interface__rosidl_generator_type_description: rosidl_generator_type_description/dobot_interface/action/PosePTP.json
+dobot_interface__rosidl_generator_type_description: rosidl_generator_type_description/dobot_interface/srv/PickAndPlace.json
 dobot_interface__rosidl_generator_type_description: CMakeFiles/dobot_interface__rosidl_generator_type_description.dir/build.make
 .PHONY : dobot_interface__rosidl_generator_type_description
 
@@ -88,6 +94,6 @@ CMakeFiles/dobot_interface__rosidl_generator_type_description.dir/clean:
 .PHONY : CMakeFiles/dobot_interface__rosidl_generator_type_description.dir/clean
 
 CMakeFiles/dobot_interface__rosidl_generator_type_description.dir/depend:
-	cd /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/src/dobot_interface /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/src/dobot_interface /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/CMakeFiles/dobot_interface__rosidl_generator_type_description.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dobot/Documents/DetectX/DetectX_Dobot/src/dobot_interface /home/dobot/Documents/DetectX/DetectX_Dobot/src/dobot_interface /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/CMakeFiles/dobot_interface__rosidl_generator_type_description.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/dobot_interface__rosidl_generator_type_description.dir/depend
 

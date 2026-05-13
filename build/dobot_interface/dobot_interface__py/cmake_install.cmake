@@ -1,8 +1,8 @@
-# Install script for directory: /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/dobot_interface__py
+# Install script for directory: /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/dobot_interface__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/install/dobot_interface")
+  set(CMAKE_INSTALL_PREFIX "/home/dobot/Documents/DetectX/DetectX_Dobot/install/dobot_interface")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

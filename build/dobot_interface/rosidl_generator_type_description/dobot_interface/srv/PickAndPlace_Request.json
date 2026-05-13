@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "dobot_interface/srv/PickAndPlace_Request",
+      "fields": [
+        {
+          "name": "pick_pose",
+          "type": {
+            "type_id": 58,
+            "capacity": 4,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "place_pose",
+          "type": {
+            "type_id": 58,
+            "capacity": 4,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "dobot_interface/srv/PickAndPlace_Request",
+      "hash_string": "RIHS01_a3fbc016607751cbbd8778b3265eef47a39c1bce0940baeec7dbdc85ab85dff9"
+    }
+  ]
+}

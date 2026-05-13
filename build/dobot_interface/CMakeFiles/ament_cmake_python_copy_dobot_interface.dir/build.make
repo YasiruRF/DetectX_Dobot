@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/src/dobot_interface
+CMAKE_SOURCE_DIR = /home/dobot/Documents/DetectX/DetectX_Dobot/src/dobot_interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface
+CMAKE_BINARY_DIR = /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface
 
 # Utility rule file for ament_cmake_python_copy_dobot_interface.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_dobot_interface.dir/compiler_depend.m
 include CMakeFiles/ament_cmake_python_copy_dobot_interface.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_dobot_interface:
-	/usr/bin/cmake -E copy_directory /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_generator_py/dobot_interface /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/ament_cmake_python/dobot_interface/dobot_interface
+	/usr/bin/cmake -E copy_directory /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_py/dobot_interface /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/ament_cmake_python/dobot_interface/dobot_interface
 
 ament_cmake_python_copy_dobot_interface: CMakeFiles/ament_cmake_python_copy_dobot_interface
 ament_cmake_python_copy_dobot_interface: CMakeFiles/ament_cmake_python_copy_dobot_interface.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_dobot_interface.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_dobot_interface.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_dobot_interface.dir/depend:
-	cd /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/src/dobot_interface /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/src/dobot_interface /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/CMakeFiles/ament_cmake_python_copy_dobot_interface.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dobot/Documents/DetectX/DetectX_Dobot/src/dobot_interface /home/dobot/Documents/DetectX/DetectX_Dobot/src/dobot_interface /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/CMakeFiles/ament_cmake_python_copy_dobot_interface.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ament_cmake_python_copy_dobot_interface.dir/depend
 

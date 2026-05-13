@@ -1,8 +1,9 @@
 {
   "package_name": "dobot_interface",
-  "output_dir": "/mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_generator_type_description/dobot_interface",
+  "output_dir": "/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_type_description/dobot_interface",
   "idl_tuples": [
-    "/mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_adapter/dobot_interface:action/PosePTP.idl"
+    "/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_adapter/dobot_interface:action/PosePTP.idl",
+    "/home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_adapter/dobot_interface:srv/PickAndPlace.idl"
   ],
   "include_paths": [
     "action_msgs:/opt/ros/kilted/share/action_msgs",

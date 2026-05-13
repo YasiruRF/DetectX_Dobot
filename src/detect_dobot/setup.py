@@ -6,7 +6,7 @@ setup(
     name=package_name,
     version='0.0.0',
     packages=find_packages(exclude=['test']),
-    package_dir={'dobot.resource': 'resource'},
+    package_dir={'': '.'},
     data_files=[
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
@@ -29,10 +29,12 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            "suction_cup_node = dobot.suction_cup_node:main",
-            "jpose_ptp_node = dobot.joint_ptp_node:main",
-            "cartesian_ptp_node = dobot.cartesian_ptp_node:main",
-            "vision_node = detect_dobot.vision_node:main",
+            'homing_node = detect_dobot.homing_node:main',
+            'suction_cup_node = detect_dobot.suction_cup_node:main',
+            'pose_ptp_node = detect_dobot.pose_ptp_node:main',
+            'cartesian_ptp_node = detect_dobot.cartesian_ptp_node:main',
+            'pick_and_place_node = detect_dobot.pick_and_place_node:main',
+            'vision_node = detect_dobot.vision_node:main',
         ],
     },
 )

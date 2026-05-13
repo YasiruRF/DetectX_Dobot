@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/src/dobot_interface
+CMAKE_SOURCE_DIR = /home/dobot/Documents/DetectX/DetectX_Dobot/src/dobot_interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface
+CMAKE_BINARY_DIR = /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface
 
 # Utility rule file for dobot_interface.
 
@@ -66,7 +66,8 @@ include CMakeFiles/dobot_interface.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/dobot_interface.dir/progress.make
 
-CMakeFiles/dobot_interface: /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/src/dobot_interface/action/PosePTP.action
+CMakeFiles/dobot_interface: /home/dobot/Documents/DetectX/DetectX_Dobot/src/dobot_interface/action/PosePTP.action
+CMakeFiles/dobot_interface: /home/dobot/Documents/DetectX/DetectX_Dobot/src/dobot_interface/srv/PickAndPlace.srv
 CMakeFiles/dobot_interface: /opt/ros/kilted/share/action_msgs/msg/GoalInfo.idl
 CMakeFiles/dobot_interface: /opt/ros/kilted/share/action_msgs/msg/GoalStatus.idl
 CMakeFiles/dobot_interface: /opt/ros/kilted/share/action_msgs/msg/GoalStatusArray.idl
@@ -86,6 +87,6 @@ CMakeFiles/dobot_interface.dir/clean:
 .PHONY : CMakeFiles/dobot_interface.dir/clean
 
 CMakeFiles/dobot_interface.dir/depend:
-	cd /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/src/dobot_interface /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/src/dobot_interface /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/CMakeFiles/dobot_interface.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dobot/Documents/DetectX/DetectX_Dobot/src/dobot_interface /home/dobot/Documents/DetectX/DetectX_Dobot/src/dobot_interface /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/CMakeFiles/dobot_interface.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/dobot_interface.dir/depend
 

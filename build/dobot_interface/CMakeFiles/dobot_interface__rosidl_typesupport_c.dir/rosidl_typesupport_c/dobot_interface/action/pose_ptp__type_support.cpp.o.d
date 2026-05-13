@@ -1,5 +1,5 @@
 CMakeFiles/dobot_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/dobot_interface/action/pose_ptp__type_support.cpp.o: \
- /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_typesupport_c/dobot_interface/action/pose_ptp__type_support.cpp \
+ /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_typesupport_c/dobot_interface/action/pose_ptp__type_support.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/cstddef \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -40,15 +40,15 @@ CMakeFiles/dobot_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/dobot_
  /opt/ros/kilted/include/rcutils/rcutils/sha256.h \
  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
  /opt/ros/kilted/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
- /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__struct.h \
+ /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__struct.h \
  /opt/ros/kilted/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
  /opt/ros/kilted/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
  /opt/ros/kilted/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h \
- /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.h \
- /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_generator_c/dobot_interface/msg/rosidl_generator_c__visibility_control.h \
+ /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__type_support.h \
+ /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_c/dobot_interface/msg/rosidl_generator_c__visibility_control.h \
  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
- /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__functions.h \
+ /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_c/dobot_interface/action/detail/pose_ptp__functions.h \
  /usr/include/c++/13/stdlib.h /usr/include/c++/13/cstdlib \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
@@ -103,4 +103,4 @@ CMakeFiles/dobot_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/dobot_
  /opt/ros/kilted/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.h \
  /opt/ros/kilted/include/action_msgs/action_msgs/srv/detail/cancel_goal__functions.h \
  /opt/ros/kilted/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h \
- /mnt/d/Curtin_Colombo/year_3/sem_1/mxen3005/detectX/build/dobot_interface/rosidl_generator_c/dobot_interface/action/pose_ptp.h
+ /home/dobot/Documents/DetectX/DetectX_Dobot/build/dobot_interface/rosidl_generator_c/dobot_interface/action/pose_ptp.h
